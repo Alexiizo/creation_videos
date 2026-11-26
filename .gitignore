@@ -1,0 +1,15 @@
+.env
+node_modules/
+__pycache__/
+*.pyc
+dist/
+videos/*/rendu/
+videos/*/apercu/
+videos/*/.studio/
+videos/*/.atelier/
+videos/*/voix_plans/*.mp3
+videos/*/voix*.mp3
+videos/*/*_voix*.txt
+.DS_Store
+bancs/
+videos/*/livrables.txt

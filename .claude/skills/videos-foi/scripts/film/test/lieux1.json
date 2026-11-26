@@ -1,0 +1,10 @@
+[
+ {"gen":"ciel","haut":"#6fa8dc","bas":"#f6dcb0","horizon":1020,"astre":[260,420,60]},
+ {"gen":"relief","y":1000,"amplitude":200,"couleur":"#c9b38a","seed":4},
+ {"gen":"ville","style":"antique","rangees":[{"y":1030,"h":[80,150],"echelle":0.45},{"y":1080,"h":[100,180],"echelle":0.6}],"brume":"#f0dcb8"},
+ {"gen":"sol","y":1020,"horizon":1020,"matiere":"terre","couleur":"#c9a874"},
+ {"gen":"batiment","x":480,"y":1420,"l":620,"h":560,"style":"antique","couleur":"#e0cba4","porte_x":0.35,"cote":120,"horizon":1020,"y_ref":1600,"escalier":true},
+ {"gen":"arbre","espece":"olivier","x":180,"y":1480,"hauteur":560,"seed":3},
+ {"gen":"arbre","espece":"figuier","x":980,"y":1700,"hauteur":420,"seed":5},
+ {"gen":"vegetation","zone":[-200,1500,1300,1950],"types":["herbe","cailloux","fleurs"],"densite":0.35,"couleur":"#8a8a4a","horizon":1020}
+]

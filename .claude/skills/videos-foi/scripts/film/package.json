@@ -1,0 +1,8 @@
+{
+  "name": "videos-foi-film",
+  "private": true,
+  "description": "Moteur de rendu des vidéos : Chromium piloté par Playwright (Apache-2.0)",
+  "dependencies": {
+    "playwright": "1.65.1"
+  }
+}

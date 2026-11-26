@@ -1,0 +1,2320 @@
+{
+ "titre": "Trop loin pour revenir ?",
+ "type_video": "recit",
+ "passage": "Luc 15:11-32",
+ "pont": {
+  "ref": "Luc 15:18"
+ },
+ "style": {
+  "format": "lumiere",
+  "grain": 0.05,
+  "musique": {
+   "tonalite": "G",
+   "tempo": 70,
+   "humeur": "espoir"
+  }
+ },
+ "personnages": {
+  "theo": {
+   "silhouette": "homme",
+   "age": "jeune",
+   "tete": 1.35,
+   "traits": "simple",
+   "peau": "#c48a5e",
+   "cheveux": {
+    "style": "boucles",
+    "couleur": "#1c130d"
+   },
+   "haut": {
+    "couleur": "#3f5a8a",
+    "col": "capuche"
+   },
+   "bas": {
+    "type": "pantalon",
+    "couleur": "#232a40"
+   },
+   "chaussures": {
+    "type": "baskets",
+    "couleur": "#f2f0ea"
+   },
+   "tient": "telephone"
+  },
+  "jesus": {
+   "silhouette": "homme",
+   "traits": "simple",
+   "tete": 1.15,
+   "peau": "#b07a52",
+   "cheveux": {
+    "style": "long",
+    "couleur": "#2b1d14"
+   },
+   "barbe": {
+    "style": "courte",
+    "couleur": "#2b1d14"
+   },
+   "haut": {
+    "couleur": "#efe6d6",
+    "longueur": "chevilles",
+    "col": "tunique"
+   },
+   "bas": null,
+   "manteau": {
+    "type": "drape",
+    "couleur": "#9b2a26"
+   },
+   "chaussures": {
+    "type": "sandales",
+    "couleur": "#5a3f28"
+   }
+  },
+  "pere_histoire": {
+   "silhouette": "homme",
+   "age": "age",
+   "traits": "simple",
+   "tete": 1.15,
+   "peau": "#a8704a",
+   "cheveux": {
+    "style": "degarni",
+    "couleur": "#d8d2c8"
+   },
+   "barbe": {
+    "style": "longue",
+    "couleur": "#e8e2d6"
+   },
+   "haut": {
+    "couleur": "#efe6d6",
+    "longueur": "chevilles",
+    "col": "tunique"
+   },
+   "bas": null,
+   "manteau": {
+    "type": "drape",
+    "couleur": "#7a4e32"
+   },
+   "ceinture": "#5a3f28",
+   "chaussures": {
+    "type": "sandales",
+    "couleur": "#5a3f28"
+   }
+  },
+  "fils": {
+   "silhouette": "homme",
+   "age": "jeune",
+   "traits": "simple",
+   "tete": 1.15,
+   "peau": "#b98258",
+   "cheveux": {
+    "style": "court",
+    "couleur": "#1c130d"
+   },
+   "haut": {
+    "couleur": "#ece2cf",
+    "longueur": "chevilles",
+    "col": "tunique"
+   },
+   "bas": null,
+   "manteau": {
+    "type": "drape",
+    "couleur": "#3f6f8f"
+   },
+   "ceinture": "#b8843a",
+   "chaussures": {
+    "type": "sandales",
+    "couleur": "#6a4a30"
+   }
+  },
+  "fils_pauvre": {
+   "silhouette": "homme",
+   "age": "jeune",
+   "traits": "simple",
+   "tete": 1.15,
+   "peau": "#b98258",
+   "cheveux": {
+    "style": "mi_long",
+    "couleur": "#1c130d"
+   },
+   "barbe": {
+    "style": "courte",
+    "couleur": "#1c130d"
+   },
+   "haut": {
+    "couleur": "#9a8e78",
+    "longueur": "genoux",
+    "col": "tunique"
+   },
+   "bas": null,
+   "ceinture": "#5a4632",
+   "chaussures": {
+    "type": "pieds_nus"
+   }
+  },
+  "ami1": {
+   "silhouette": "homme",
+   "age": "jeune",
+   "traits": "simple",
+   "tete": 1.15,
+   "peau": "#c48a5e",
+   "cheveux": {
+    "style": "boucles",
+    "couleur": "#1c130d"
+   },
+   "barbe": {
+    "style": "courte"
+   },
+   "haut": {
+    "couleur": "#b5523a",
+    "longueur": "chevilles",
+    "col": "tunique"
+   },
+   "bas": null,
+   "manteau": {
+    "type": "drape",
+    "couleur": "#d9b45a"
+   }
+  },
+  "ami2": {
+   "silhouette": "homme",
+   "age": "jeune",
+   "traits": "simple",
+   "tete": 1.15,
+   "peau": "#9c6644",
+   "cheveux": {
+    "style": "court",
+    "couleur": "#141414"
+   },
+   "haut": {
+    "couleur": "#5f3f7a",
+    "longueur": "chevilles",
+    "col": "tunique"
+   },
+   "bas": null,
+   "manteau": {
+    "type": "drape",
+    "couleur": "#e8dfcf"
+   }
+  }
+ },
+ "lieux": {
+  "chambre": {
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": 1,
+    "couleur": "#a9c4ff",
+    "ombre": "#151a33"
+   },
+   "etalonnage": {
+    "saturation": 0.95
+   },
+   "couches": [
+    {
+     "gen": "piece",
+     "fond": [
+      -160,
+      150,
+      1240,
+      840
+     ],
+     "mur": {
+      "couleur": "#2f3a60",
+      "matiere": "enduit"
+     },
+     "sol": {
+      "couleur": "#2a2c44",
+      "matiere": "parquet"
+     },
+     "fenetres": [
+      {
+       "x": 600,
+       "y": 545,
+       "l": 280,
+       "h": 205,
+       "ciel": "nuit",
+       "ville": true,
+       "lune": true,
+       "rideaux": "#26304f"
+      }
+     ],
+     "cadres": [
+      {
+       "x": 150,
+       "y": 560,
+       "l": 90,
+       "h": 110,
+       "couleur": "#1d2238",
+       "fond": "#3a4470"
+      }
+     ],
+     "plafond": "#cdbfae",
+     "profondeur": 0.95
+    },
+    {
+     "gen": "meuble",
+     "type": "etagere",
+     "x": -120,
+     "y": 900,
+     "l": 220,
+     "h": 560,
+     "prof": 140,
+     "couleur": "#26283c",
+     "profondeur": 0.97
+    },
+    {
+     "gen": "meuble",
+     "type": "lit",
+     "x": 150,
+     "y": 1030,
+     "l": 700,
+     "h": 180,
+     "prof": 300,
+     "couleur": "#4a3a46",
+     "couleur2": "#5d6fa0",
+     "drap": "#e7e2d8",
+     "profondeur": 1,
+     "y_sol": 1030
+    }
+   ]
+  },
+  "colline": {
+   "heure": "matin",
+   "sol": {
+    "horizon": 720,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": -1,
+    "couleur": "#fff1d6",
+    "ombre": "#33304a"
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "haut": "#6fa3d6",
+     "bas": "#f6e2b8",
+     "horizon": 720,
+     "astre": [
+      200,
+      200,
+      46
+     ],
+     "profondeur": 0
+    },
+    {
+     "gen": "nuages",
+     "n": 4,
+     "y": 180,
+     "couleur": "#ffffff",
+     "opacite": 0.55,
+     "profondeur": 0.05
+    },
+    {
+     "gen": "relief",
+     "y": 700,
+     "amplitude": 130,
+     "couleur": "#9fb0a8",
+     "profondeur": 0.12,
+     "seed": 2
+    },
+    {
+     "gen": "relief",
+     "y": 740,
+     "amplitude": 90,
+     "couleur": "#93a868",
+     "profondeur": 0.3,
+     "seed": 5
+    },
+    {
+     "gen": "sol",
+     "y": 740,
+     "matiere": "herbe",
+     "couleur": "#86a05a",
+     "profondeur": 1
+    },
+    {
+     "gen": "arbre",
+     "espece": "olivier",
+     "x": 60,
+     "y": 880,
+     "hauteur": 300,
+     "seed": 4,
+     "profondeur": 1
+    },
+    {
+     "gen": "arbre",
+     "espece": "olivier",
+     "x": 1000,
+     "y": 860,
+     "hauteur": 260,
+     "seed": 8,
+     "profondeur": 1
+    }
+   ]
+  },
+  "maison": {
+   "heure": "matin",
+   "sol": {
+    "horizon": 720,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": -1,
+    "couleur": "#fff1d6",
+    "ombre": "#3a2a3a"
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "haut": "#78aedb",
+     "bas": "#f6dcb0",
+     "horizon": 720,
+     "astre": [
+      900,
+      200,
+      46
+     ],
+     "profondeur": 0
+    },
+    {
+     "gen": "relief",
+     "y": 710,
+     "amplitude": 150,
+     "couleur": "#c9b38a",
+     "profondeur": 0.15,
+     "seed": 4
+    },
+    {
+     "gen": "ville",
+     "style": "antique",
+     "rangees": [
+      {
+       "y": 730,
+       "h": [
+        70,
+        130
+       ],
+       "echelle": 0.36
+      }
+     ],
+     "de": -300,
+     "a": 260,
+     "brume": "#f0dcb8",
+     "profondeur": 0.4
+    },
+    {
+     "gen": "sol",
+     "y": 720,
+     "matiere": "terre",
+     "couleur": "#c9a874",
+     "profondeur": 1
+    },
+    {
+     "gen": "batiment",
+     "x": 300,
+     "y": 900,
+     "l": 820,
+     "h": 520,
+     "style": "antique",
+     "couleur": "#e3cfa8",
+     "porte_x": 0.22,
+     "cote": 0,
+     "profondeur": 1
+    },
+    {
+     "gen": "arbre",
+     "espece": "olivier",
+     "x": 130,
+     "y": 950,
+     "hauteur": 430,
+     "seed": 3,
+     "profondeur": 1
+    }
+   ]
+  },
+  "route": {
+   "heure": "soir",
+   "sol": {
+    "horizon": 720,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": 1,
+    "couleur": "#ffe2b8",
+    "ombre": "#3a2a3a"
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "haut": "#e98a5a",
+     "bas": "#ffe0a8",
+     "horizon": 720,
+     "astre": [
+      690,
+      640,
+      56
+     ],
+     "profondeur": 0
+    },
+    {
+     "gen": "relief",
+     "y": 710,
+     "amplitude": 140,
+     "couleur": "#b08a6a",
+     "profondeur": 0.12,
+     "seed": 6
+    },
+    {
+     "gen": "relief",
+     "y": 750,
+     "amplitude": 80,
+     "couleur": "#9a7658",
+     "profondeur": 0.3,
+     "seed": 9
+    },
+    {
+     "gen": "sol",
+     "y": 740,
+     "matiere": "terre",
+     "couleur": "#b8935e",
+     "profondeur": 1
+    },
+    {
+     "gen": "chemin",
+     "de": [
+      540,
+      1500
+     ],
+     "a": [
+      630,
+      745
+     ],
+     "largeur": 640,
+     "couleur": "#d9bd8c",
+     "profondeur": 1
+    },
+    {
+     "gen": "arbre",
+     "espece": "cypres",
+     "x": 270,
+     "y": 800,
+     "hauteur": 240,
+     "profondeur": 1
+    },
+    {
+     "gen": "arbre",
+     "espece": "palmier",
+     "x": 1000,
+     "y": 960,
+     "hauteur": 520,
+     "seed": 2,
+     "profondeur": 1
+    }
+   ]
+  },
+  "fete": {
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": -1,
+    "couleur": "#ffcf8a",
+    "ombre": "#2a1a2a"
+   },
+   "couches": [
+    {
+     "gen": "piece",
+     "fond": [
+      -100,
+      160,
+      1180,
+      860
+     ],
+     "mur": {
+      "couleur": "#7a5a48",
+      "matiere": "pierre"
+     },
+     "sol": {
+      "couleur": "#6a4a36",
+      "matiere": "dalles"
+     },
+     "plafond": "#cdbfae",
+     "lumiere": {
+      "x": 540,
+      "y": 760,
+      "r": 800,
+      "couleur": "#ffb35a",
+      "intensite": 0.4
+     },
+     "profondeur": 0.95
+    },
+    {
+     "gen": "particules",
+     "genre": "braises",
+     "n": 20,
+     "couleur": "#ffcf8a",
+     "zone": [
+      100,
+      300,
+      880,
+      500
+     ],
+     "opacite": 0.6,
+     "profondeur": 1.0
+    }
+   ]
+  },
+  "champ": {
+   "heure": "midi",
+   "sol": {
+    "horizon": 720,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": -1,
+    "couleur": "#f2ead8",
+    "ombre": "#2f2a30"
+   },
+   "etalonnage": {
+    "saturation": 0.7
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "haut": "#8d9196",
+     "bas": "#d8ccb0",
+     "horizon": 720,
+     "astre": [
+      260,
+      330,
+      40
+     ],
+     "astre_couleur": "#f4ecd8",
+     "profondeur": 0
+    },
+    {
+     "gen": "relief",
+     "y": 710,
+     "amplitude": 70,
+     "couleur": "#a2957a",
+     "profondeur": 0.15,
+     "seed": 3
+    },
+    {
+     "gen": "sol",
+     "y": 720,
+     "matiere": "terre",
+     "couleur": "#8a6a46",
+     "profondeur": 1
+    },
+    {
+     "gen": "arbre",
+     "espece": "nu",
+     "x": 900,
+     "y": 820,
+     "hauteur": 260,
+     "seed": 6,
+     "profondeur": 1
+    },
+    {
+     "gen": "cloture",
+     "de": [
+      -150,
+      830
+     ],
+     "a": [
+      1250,
+      850
+     ],
+     "hauteur": 140,
+     "poteaux": 9,
+     "profondeur": 1
+    }
+   ]
+  },
+  "aube": {
+   "heure": "or",
+   "sol": {
+    "horizon": 760,
+    "y_ref": 1060
+   },
+   "panneau": {
+    "fond": "#f6cf7d",
+    "fond2": "#e39a42",
+    "texte": "#2b1c0e",
+    "gris": "#a8742f",
+    "actif": "#fffaf0",
+    "lueur": "#fff3c4"
+   },
+   "lumiere": {
+    "cote": 1,
+    "couleur": "#fff3c4",
+    "ombre": "#7a4a2a"
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "haut": "#ffcf7d",
+     "bas": "#fff2d0",
+     "horizon": 760,
+     "astre": [
+      700,
+      640,
+      90
+     ],
+     "astre_couleur": "#fffaf0",
+     "profondeur": 0
+    },
+    {
+     "gen": "rayons",
+     "source": [
+      700,
+      640
+     ],
+     "angle": 200,
+     "n": 10,
+     "ecart": 14,
+     "largeur": 4,
+     "couleur": "#fff6dc",
+     "opacite": 0.4,
+     "profondeur": 0.05
+    },
+    {
+     "gen": "relief",
+     "y": 750,
+     "amplitude": 110,
+     "couleur": "#e2ae6a",
+     "profondeur": 0.15,
+     "seed": 6
+    },
+    {
+     "gen": "sol",
+     "y": 760,
+     "matiere": "terre",
+     "couleur": "#dcae68",
+     "profondeur": 1
+    },
+    {
+     "svg": "<g><path d='M-400,1010 C200,985 700,1030 1500,1000 L1500,1170 C800,1190 300,1150 -400,1180Z' fill='#f0cf92'/></g>",
+     "profondeur": 1
+    }
+   ]
+  }
+ },
+ "plans": [
+  {
+   "texte": "Tu t'es déjà dit : “cette fois, je suis allé trop loin” ?",
+   "registre": "aujourdhui",
+   "lieu": "chambre",
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "theo",
+     "plan": "large"
+    },
+    {
+     "t": "fin",
+     "cadre": "theo",
+     "plan": "moyen"
+    }
+   ],
+   "graphiques": [
+    {
+     "type": "badge",
+     "texte": "2 h du matin",
+     "t": 0.2,
+     "fin": 2.2
+    },
+    {
+     "type": "ondes",
+     "sur": "theo",
+     "mot": "loin"
+    }
+   ],
+   "objets": [
+    {
+     "gen": "lumiere",
+     "pos": [
+      520,
+      860
+     ],
+     "rayon": 300,
+     "couleur": "#9cc4ff",
+     "intensite": 0.35,
+     "y_sol": 1100
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "theo",
+     "x": 500,
+     "y": 1090,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "telephone",
+       "visage": "inquiet",
+       "vue": 10,
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80,
+        "cou": 22
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "texte": "Trop d'erreurs.",
+   "registre": "aujourdhui",
+   "lieu": "chambre",
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "theo",
+     "plan": "serre"
+    },
+    {
+     "t": "fin",
+     "cadre": "theo",
+     "plan": "serre",
+     "zoom_k": 1.06
+    }
+   ],
+   "graphiques": [
+    {
+     "type": "goutte",
+     "sur": "theo",
+     "t": 0.2
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "theo",
+     "x": 500,
+     "y": 1090,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "telephone",
+       "visage": "triste",
+       "vue": 10,
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80,
+        "cou": 26
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "texte": "Trop de temps loin de Dieu.",
+   "registre": "aujourdhui",
+   "lieu": "chambre",
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "theo",
+     "plan": "moyen",
+     "x_ecran": 640
+    },
+    {
+     "t": "fin",
+     "cadre": "theo",
+     "plan": "moyen",
+     "x_ecran": 640,
+     "zoom_k": 1.05
+    }
+   ],
+   "graphiques": [
+    {
+     "type": "pensee",
+     "sur": "theo",
+     "icone": "church",
+     "cote": 1,
+     "mot": "temps"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "theo",
+     "x": 500,
+     "y": 1090,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "assis",
+       "visage": "inquiet",
+       "vue": 20,
+       "tient": null,
+       "regard": [
+        -0.6,
+        -0.4
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "texte": "Alors tu te dis qu'il vaut mieux ne plus revenir.",
+   "registre": "aujourdhui",
+   "lieu": "chambre",
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "theo",
+     "plan": "large"
+    },
+    {
+     "t": "fin",
+     "cadre": "theo",
+     "plan": "large",
+     "zoom_k": 1.06
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "theo",
+     "x": 500,
+     "y": 1090,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "assis",
+       "visage": "triste",
+       "vue": 15,
+       "tient": null
+      },
+      {
+       "mot": "mieux",
+       "pose": "pleure_assis",
+       "visage": "triste",
+       "vue": 15,
+       "transition": 0.7
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "texte": "Il y a deux mille ans, Jésus a raconté une histoire pour des gens comme toi.",
+   "registre": "recit",
+   "appui": [
+    "Luc 15:1-3"
+   ],
+   "lieu": "colline",
+   "transition": "fondu",
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "jesus",
+     "plan": "ensemble",
+     "y_ecran": 520
+    },
+    {
+     "t": "fin",
+     "cadre": "jesus",
+     "plan": "large",
+     "y_ecran": 430
+    }
+   ],
+   "graphiques": [
+    {
+     "type": "badge",
+     "texte": "Une histoire de Jésus · Luc 15",
+     "t": 0.4,
+     "taille": 24
+    }
+   ],
+   "objets": [
+    {
+     "gen": "foule",
+     "n": 2,
+     "zone": [
+      225,
+      965,
+      370,
+      1060
+     ],
+     "epoque": "antique",
+     "vers": [
+      540,
+      930
+     ],
+     "poses": [
+      "debout",
+      "ecoute"
+     ],
+     "seed": 7
+    },
+    {
+     "gen": "foule",
+     "n": 2,
+     "zone": [
+      715,
+      965,
+      850,
+      1060
+     ],
+     "epoque": "antique",
+     "vers": [
+      540,
+      930
+     ],
+     "poses": [
+      "debout",
+      "ecoute"
+     ],
+     "seed": 11
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 540,
+     "y": 930,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "enseigne",
+       "visage": "doux",
+       "vue": 8,
+       "parle": 1
+      },
+      {
+       "mot": "histoire",
+       "pose": "accueille",
+       "visage": "doux",
+       "vue": 5,
+       "parle": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "texte": "Un jour, le plus jeune de deux fils réclame sa part d'héritage.",
+   "registre": "recit",
+   "appui": [
+    "Luc 15:11",
+    "Luc 15:12"
+   ],
+   "lieu": "maison",
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "pere_histoire",
+      "fils"
+     ],
+     "plan": "large"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "pere_histoire",
+      "fils"
+     ],
+     "plan": "moyen"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "pere_histoire",
+     "x": 430,
+     "y": 1040,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "doux",
+       "vue": 50
+      },
+      {
+       "mot": "réclame",
+       "pose": "debout",
+       "visage": "triste",
+       "vue": 50
+      }
+     ]
+    },
+    {
+     "id": "fils",
+     "x": 680,
+     "y": 1060,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "bras_croises",
+       "visage": "determine",
+       "vue": 45
+      },
+      {
+       "mot": "réclame",
+       "pose": "tend_main",
+       "visage": "determine",
+       "vue": 60,
+       "angles": {
+        "paume_av": 175,
+        "epaule_av": 55,
+        "coude_av": 30
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "texte": "Il part loin.",
+   "registre": "recit",
+   "appui": [
+    "Luc 15:13"
+   ],
+   "lieu": "route",
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "fils",
+     "plan": "large"
+    },
+    {
+     "t": "fin",
+     "x": 620,
+     "y": 760,
+     "zoom": 1.5
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "fils",
+     "x": 560,
+     "y": 1120,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "marche",
+       "x": 630,
+       "y": 820,
+       "duree": 3.2,
+       "vue": 172
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "texte": "Et il dépense tout.",
+   "registre": "recit",
+   "appui": [
+    "Luc 15:13"
+   ],
+   "lieu": "fete",
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "ami1",
+      "fils",
+      "ami2"
+     ],
+     "plan": "large"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "fils"
+     ],
+     "plan": "moyen"
+    }
+   ],
+   "objets": [
+    {
+     "gen": "meuble",
+     "type": "banc",
+     "x": 150,
+     "y": 1000,
+     "l": 900,
+     "h": 118,
+     "prof": 70,
+     "couleur": "#5a3a26"
+    },
+    {
+     "gen": "meuble",
+     "type": "table",
+     "x": 140,
+     "y": 1140,
+     "l": 800,
+     "h": 190,
+     "prof": 230,
+     "couleur": "#5a3a26",
+     "id": "table"
+    },
+    {
+     "gen": "accessoire",
+     "type": "pieces",
+     "x": 470,
+     "taille": 46,
+     "n": 12,
+     "sur": "table"
+    },
+    {
+     "gen": "accessoire",
+     "type": "coupe",
+     "x": 300,
+     "taille": 42,
+     "sur": "table"
+    },
+    {
+     "gen": "accessoire",
+     "type": "coupe",
+     "x": 770,
+     "taille": 42,
+     "sur": "table"
+    },
+    {
+     "gen": "accessoire",
+     "type": "lampe",
+     "x": 880,
+     "taille": 42,
+     "sur": "table"
+    }
+   ],
+   "graphiques": [
+    {
+     "type": "bulle",
+     "sur": "ami1",
+     "contenu": "sourire",
+     "t": 0.3
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "ami1",
+     "x": 270,
+     "y": 1000,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "assis",
+       "visage": "rire",
+       "vue": 25
+      }
+     ],
+     "hors_champ_ok": true
+    },
+    {
+     "id": "fils",
+     "x": 540,
+     "y": 990,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "bras_ouverts",
+       "visage": "rire",
+       "vue": 10
+      }
+     ]
+    },
+    {
+     "id": "ami2",
+     "x": 810,
+     "y": 1000,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "assis",
+       "visage": "joie",
+       "vue": 25
+      }
+     ],
+     "hors_champ_ok": true
+    }
+   ]
+  },
+  {
+   "texte": "Puis la famine arrive.",
+   "registre": "recit",
+   "appui": [
+    "Luc 15:14"
+   ],
+   "lieu": "champ",
+   "transition": "fondu",
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "fils_pauvre",
+     "plan": "ensemble"
+    },
+    {
+     "t": "fin",
+     "cadre": "fils_pauvre",
+     "plan": "large"
+    }
+   ],
+   "objets": [
+    {
+     "gen": "accessoire",
+     "type": "bourse",
+     "x": 640,
+     "y": 1075,
+     "taille": 60,
+     "couleur": "#6a4a30"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "fils_pauvre",
+     "x": 540,
+     "y": 1060,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "tete_baissee",
+       "visage": "fatigue",
+       "vue": 25
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "texte": "Il finit à garder des cochons, le ventre vide.",
+   "registre": "recit",
+   "appui": [
+    "Luc 15:15",
+    "Luc 15:16"
+   ],
+   "lieu": "champ",
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "fils_pauvre",
+     "plan": "large",
+     "y_ecran": 520
+    },
+    {
+     "t": "fin",
+     "cadre": "fils_pauvre",
+     "plan": "large",
+     "y_ecran": 520,
+     "zoom_k": 1.06
+    }
+   ],
+   "objets": [
+    {
+     "gen": "animal",
+     "espece": "porc",
+     "x": 220,
+     "y": 900,
+     "taille": 250,
+     "sens": 1,
+     "pose": "broute",
+     "seed": 3
+    },
+    {
+     "gen": "animal",
+     "espece": "porc",
+     "x": 860,
+     "y": 930,
+     "taille": 260,
+     "sens": -1,
+     "seed": 5
+    },
+    {
+     "gen": "animal",
+     "espece": "porc",
+     "x": 790,
+     "y": 1180,
+     "taille": 260,
+     "sens": -1,
+     "pose": "broute",
+     "seed": 7
+    },
+    {
+     "gen": "auge",
+     "x": 380,
+     "y": 980,
+     "l": 340
+    },
+    {
+     "gen": "accessoire",
+     "type": "carouges",
+     "x": 560,
+     "y": 968,
+     "taille": 70,
+     "n": 9,
+     "y_sol": 980
+    }
+   ],
+   "graphiques": [
+    {
+     "type": "coeur",
+     "sur": "fils_pauvre",
+     "bpm": 60,
+     "couleur": "#5a3a2a",
+     "taille": 0.3,
+     "mot": "vide"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "fils_pauvre",
+     "x": 470,
+     "y": 1090,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "assis_sol",
+       "visage": "triste",
+       "vue": 35
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "texte": "Pour un Juif de l'époque, impossible de tomber plus bas.",
+   "registre": "explication",
+   "appui": [
+    "Lévitique 11:7"
+   ],
+   "lieu": "champ",
+   "camera": [
+    {
+     "t": 0,
+     "x": 700,
+     "y": 930,
+     "zoom": 1.5
+    },
+    {
+     "t": "fin",
+     "x": 700,
+     "y": 930,
+     "zoom": 1.58
+    }
+   ],
+   "graphiques": [
+    {
+     "type": "note",
+     "texte": "animal impur",
+     "cible": [
+      800,
+      1100
+     ],
+     "position": [
+      330,
+      300
+     ],
+     "t": 0.4,
+     "taille": 92,
+     "rotation": -5
+    },
+    {
+     "type": "note",
+     "texte": "Lévitique 11:7",
+     "position": [
+      330,
+      385
+     ],
+     "t": 1.0,
+     "taille": 58,
+     "rotation": -5,
+     "couleur_texte": "#ffd36b"
+    }
+   ],
+   "objets": [
+    {
+     "gen": "animal",
+     "espece": "porc",
+     "x": 860,
+     "y": 930,
+     "taille": 260,
+     "sens": -1,
+     "seed": 5
+    },
+    {
+     "gen": "animal",
+     "espece": "porc",
+     "x": 790,
+     "y": 1180,
+     "taille": 260,
+     "sens": -1,
+     "pose": "broute",
+     "seed": 7
+    }
+   ],
+   "acteurs": []
+  },
+  {
+   "texte": "Alors il se dit : « Je me lèverai, j'irai vers mon père. »",
+   "registre": "recit",
+   "appui": [
+    "Luc 15:17",
+    "Luc 15:18"
+   ],
+   "cite": [
+    {
+     "ref": "Luc 15:18"
+    }
+   ],
+   "lieu": "champ",
+   "pause": 0.5,
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "fils_pauvre",
+     "plan": "moyen",
+     "y_ecran": 420
+    },
+    {
+     "mot": "lèverai",
+     "cadre": "fils_pauvre",
+     "plan": "moyen",
+     "y_ecran": 420
+    },
+    {
+     "t": "fin",
+     "cadre": "fils_pauvre",
+     "plan": "large",
+     "y_ecran": 380
+    }
+   ],
+   "graphiques": [
+    {
+     "type": "citation",
+     "entete": "IL SE DIT",
+     "ref": "Luc 15:18",
+     "texte": "Je me lèverai, j'irai vers mon père.",
+     "mot": "Je"
+    }
+   ],
+   "objets": [
+    {
+     "gen": "auge",
+     "x": 380,
+     "y": 980,
+     "l": 340
+    },
+    {
+     "gen": "rayons",
+     "source": [
+      260,
+      330
+     ],
+     "angle": 150,
+     "n": 5,
+     "ecart": 8,
+     "largeur": 3,
+     "couleur": "#fff1c9",
+     "opacite": 0.25,
+     "profondeur": 0.5
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "fils_pauvre",
+     "x": 470,
+     "y": 1090,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "assis_sol_tete",
+       "visage": "pleure",
+       "vue": 40
+      },
+      {
+       "mot": "dit",
+       "pose": "assis_sol",
+       "visage": "inquiet",
+       "vue": 30,
+       "regard": [
+        -0.3,
+        -0.5
+       ]
+      },
+      {
+       "mot": "lèverai",
+       "pose": "debout",
+       "visage": "determine",
+       "vue": 20,
+       "transition": 1.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "texte": "Il rentre, en répétant ce qu'il va dire.",
+   "registre": "recit",
+   "appui": [
+    "Luc 15:19",
+    "Luc 15:20"
+   ],
+   "lieu": "route",
+   "transition": "fondu",
+   "camera": [
+    {
+     "t": 0,
+     "x": 640,
+     "y": 760,
+     "zoom": 1.8
+    },
+    {
+     "t": "fin",
+     "cadre": "fils_pauvre",
+     "plan": "large"
+    }
+   ],
+   "graphiques": [
+    {
+     "type": "bulle",
+     "sur": "fils_pauvre",
+     "contenu": "gribouillis",
+     "t": 1.0
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "fils_pauvre",
+     "x": 645,
+     "y": 780,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "marche",
+       "x": 610,
+       "y": 990,
+       "duree": 4.2,
+       "visage": "triste",
+       "vue": 12,
+       "ease": "lineaire"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "texte": "Mais son père le voit arriver de loin.",
+   "registre": "recit",
+   "appui": [
+    "Luc 15:20"
+   ],
+   "lieu": "route",
+   "camera": [
+    {
+     "t": 0,
+     "x": 540,
+     "y": 860,
+     "zoom": 1.05
+    },
+    {
+     "t": "fin",
+     "x": 600,
+     "y": 800,
+     "zoom": 1.25
+    }
+   ],
+   "graphiques": [
+    {
+     "type": "badge",
+     "texte": "Luc 15:20",
+     "t": 0.3
+    }
+   ],
+   "objets": [
+    {
+     "gen": "batiment",
+     "x": -380,
+     "y": 1140,
+     "l": 560,
+     "h": 600,
+     "style": "antique",
+     "couleur": "#e3cfa8",
+     "porte_x": 0.8,
+     "porte_ouverte": true,
+     "cote": 0
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "pere_histoire",
+     "x": 330,
+     "y": 1260,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "inquiet",
+       "vue": 160
+      },
+      {
+       "mot": "voit",
+       "pose": "regarde_haut",
+       "visage": "surprise",
+       "vue": 150,
+       "angles": {
+        "cou": -2
+       }
+      }
+     ]
+    },
+    {
+     "id": "fils_pauvre",
+     "x": 636,
+     "y": 770,
+     "sens": -1,
+     "hors_champ_ok": true,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "marche",
+       "x": 632,
+       "y": 790,
+       "duree": 3.0,
+       "vue": 12,
+       "visage": "triste"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "texte": "Et il court.",
+   "registre": "recit",
+   "appui": [
+    "Luc 15:20"
+   ],
+   "lieu": "aube",
+   "pause": 0.4,
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "pere_histoire",
+     "plan": "large",
+     "tremble": 0.25
+    },
+    {
+     "t": "fin",
+     "cadre": "pere_histoire",
+     "plan": "large",
+     "tremble": 0.25
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "pere_histoire",
+     "x": 120,
+     "y": 1090,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "court",
+       "x": 860,
+       "duree": 2.6,
+       "visage": "pleure",
+       "vue": 75,
+       "ease": "lineaire"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "texte": "Il le serre dans ses bras avant même qu'il ait fini de s'excuser.",
+   "registre": "recit",
+   "appui": [
+    "Luc 15:20",
+    "Luc 15:21",
+    "Luc 15:22"
+   ],
+   "lieu": "aube",
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "pere_histoire",
+      "fils_pauvre"
+     ],
+     "plan": "large"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "pere_histoire",
+      "fils_pauvre"
+     ],
+     "plan": "moyen"
+    }
+   ],
+   "graphiques": [
+    {
+     "type": "coeur",
+     "sur": "pere_histoire",
+     "bpm": 70,
+     "dx": 0.9,
+     "dy": 2.2,
+     "taille": 0.34,
+     "couleur": "#b8432f",
+     "mot": "serre"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "pere_histoire",
+     "x": 500,
+     "y": 1092,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "enlace",
+       "visage": "pleure",
+       "vue": 62
+      }
+     ]
+    },
+    {
+     "id": "fils_pauvre",
+     "x": 556,
+     "y": 1086,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "tete_baissee",
+       "visage": "pleure",
+       "vue": 60,
+       "parle": 1
+      },
+      {
+       "mot": "serre",
+       "pose": "blotti",
+       "visage": "pleure",
+       "vue": 70,
+       "transition": 0.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "texte": "Et il dit : « mon fils que voici était mort, et il est revenu à la vie; il était perdu, et il est retrouvé. »",
+   "registre": "recit",
+   "appui": [
+    "Luc 15:24"
+   ],
+   "cite": [
+    {
+     "ref": "Luc 15:24"
+    }
+   ],
+   "lieu": "aube",
+   "pause": 0.8,
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "pere_histoire",
+      "fils_pauvre"
+     ],
+     "plan": "large",
+     "y_ecran": 330
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "pere_histoire",
+      "fils_pauvre"
+     ],
+     "plan": "large",
+     "y_ecran": 330,
+     "zoom_k": 1.06
+    }
+   ],
+   "graphiques": [
+    {
+     "type": "citation",
+     "entete": "LE PÈRE DIT",
+     "ref": "Luc 15:24",
+     "texte": "mon fils que voici était mort, et il est revenu à la vie; il était perdu, et il est retrouvé.",
+     "mot": "mon"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "pere_histoire",
+     "x": 500,
+     "y": 1092,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "enlace",
+       "visage": "pleure",
+       "vue": 62
+      }
+     ]
+    },
+    {
+     "id": "fils_pauvre",
+     "x": 556,
+     "y": 1086,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "blotti",
+       "visage": "pleure",
+       "vue": 70
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "texte": "Avec cette histoire, Jésus montre comment Dieu accueille ceux qui reviennent.",
+   "registre": "explication",
+   "appui": [
+    "Luc 15:7",
+    "Luc 15:10"
+   ],
+   "lieu": "colline",
+   "transition": "fondu",
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "jesus",
+     "plan": "moyen",
+     "y_ecran": 430
+    },
+    {
+     "t": "fin",
+     "cadre": "jesus",
+     "plan": "americain",
+     "y_ecran": 420,
+     "zoom_k": 0.82
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 540,
+     "y": 930,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "accueille",
+       "visage": "doux",
+       "vue": 5
+      },
+      {
+       "mot": "accueille",
+       "pose": "bras_ouverts",
+       "visage": "joie",
+       "vue": 5,
+       "transition": 0.7
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "texte": "Pas de reproche, pas de conditions : une fête.",
+   "registre": "explication",
+   "appui": [
+    "Luc 15:22",
+    "Luc 15:23",
+    "Luc 15:24"
+   ],
+   "lieu": "maison",
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "ami1",
+      "pere_histoire",
+      "fils"
+     ],
+     "plan": "large",
+     "y_ecran": 745
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "ami1",
+      "pere_histoire",
+      "fils"
+     ],
+     "plan": "large",
+     "y_ecran": 745,
+     "zoom_k": 1.05
+    }
+   ],
+   "graphiques": [
+    {
+     "type": "liste",
+     "y": 250,
+     "fond": 0.3,
+     "items": [
+      {
+       "texte": "Pas de reproche",
+       "icone": "x",
+       "couleur": "#ff9a8a",
+       "mot": "reproche"
+      },
+      {
+       "texte": "Pas de conditions",
+       "icone": "x",
+       "couleur": "#ff9a8a",
+       "mot": "conditions"
+      },
+      {
+       "texte": "Une fête !",
+       "icone": "party-popper",
+       "mot": "fête"
+      }
+     ]
+    }
+   ],
+   "objets": [
+    {
+     "gen": "accessoire",
+     "type": "lampe",
+     "x": 380,
+     "y": 905,
+     "taille": 60
+    },
+    {
+     "gen": "accessoire",
+     "type": "lampe",
+     "x": 900,
+     "y": 905,
+     "taille": 60
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "pere_histoire",
+     "x": 540,
+     "y": 1040,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "bras_ouverts",
+       "visage": "rire",
+       "vue": 15
+      }
+     ]
+    },
+    {
+     "id": "fils",
+     "x": 790,
+     "y": 1070,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "soulage",
+       "vue": 35
+      }
+     ]
+    },
+    {
+     "id": "ami1",
+     "x": 280,
+     "y": 1080,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "salue",
+       "visage": "joie",
+       "vue": 30
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "texte": "Alors, si tu crois être allé trop loin…",
+   "registre": "aujourdhui",
+   "lieu": "chambre",
+   "transition": "fondu",
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "theo",
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": "theo",
+     "plan": "americain"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "theo",
+     "x": 500,
+     "y": 1090,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "pleure_assis",
+       "visage": "triste",
+       "vue": 15,
+       "tient": null
+      },
+      {
+       "mot": "crois",
+       "pose": "assis",
+       "visage": "inquiet",
+       "vue": 15,
+       "regard": [
+        0.5,
+        -0.6
+       ],
+       "transition": 0.9
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "texte": "le retour commence par la même phrase : je me lèverai.",
+   "registre": "aujourdhui",
+   "lieu": "chambre",
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "theo",
+     "plan": "large"
+    },
+    {
+     "mot": "lèverai",
+     "cadre": "theo",
+     "plan": "large"
+    },
+    {
+     "t": "fin",
+     "cadre": "theo",
+     "plan": "large",
+     "dy": -40
+    }
+   ],
+   "objets": [
+    {
+     "gen": "rayons",
+     "source": [
+      740,
+      400
+     ],
+     "angle": 205,
+     "n": 6,
+     "ecart": 7,
+     "largeur": 3,
+     "couleur": "#ffe7b0",
+     "opacite": 0.3,
+     "profondeur": 0.96
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "theo",
+     "x": 500,
+     "y": 1090,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "assis",
+       "visage": "inquiet",
+       "vue": 15,
+       "tient": null,
+       "regard": [
+        0.5,
+        -0.6
+       ]
+      },
+      {
+       "mot": "lèverai",
+       "pose": "debout",
+       "visage": "determine",
+       "vue": 20,
+       "transition": 1.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "texte": "Ce soir, dis-lui simplement : Père, je reviens.",
+   "registre": "invitation",
+   "lieu": "chambre",
+   "pause": 0.6,
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "theo",
+     "plan": "large",
+     "y_ecran": 600
+    },
+    {
+     "t": "fin",
+     "cadre": "theo",
+     "plan": "moyen",
+     "y_ecran": 600
+    }
+   ],
+   "objets": [
+    {
+     "gen": "rayons",
+     "source": [
+      740,
+      400
+     ],
+     "angle": 205,
+     "n": 6,
+     "ecart": 7,
+     "largeur": 3,
+     "couleur": "#ffe7b0",
+     "opacite": 0.36,
+     "profondeur": 0.96
+    },
+    {
+     "gen": "lumiere",
+     "pos": [
+      740,
+      440
+     ],
+     "rayon": 520,
+     "couleur": "#ffe7b0",
+     "intensite": 0.3,
+     "y_sol": 900
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "theo",
+     "x": 690,
+     "y": 930,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "dos",
+       "visage": "doux",
+       "vue": 172,
+       "tient": null
+      },
+      {
+       "mot": "simplement",
+       "pose": "prie",
+       "visage": "yeux_fermes",
+       "vue": 150,
+       "transition": 0.8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "texte": "Et envoie ça à quelqu'un qui pense qu'il est trop tard.",
+   "registre": "invitation",
+   "lieu": "chambre",
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "theo",
+     "plan": "serre",
+     "x_ecran": 330
+    },
+    {
+     "t": "fin",
+     "cadre": "theo",
+     "plan": "serre",
+     "x_ecran": 330,
+     "zoom_k": 1.04
+    }
+   ],
+   "graphiques": [
+    {
+     "type": "telephone",
+     "position": [
+      780,
+      640
+     ],
+     "taille": 640,
+     "texte": "Il n'est jamais trop tard pour revenir. Luc 15",
+     "t": 0.3
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "theo",
+     "x": 500,
+     "y": 1090,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "doux",
+       "vue": 5,
+       "tient": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "duree": 3.6,
+   "fin": true,
+   "lieu": "chambre",
+   "graphiques": [
+    {
+     "type": "fin",
+     "ligne": "Luc · 15 · 11-32",
+     "texte": "Il t'attend.",
+     "sous": "Lis toute l'histoire",
+     "t": 0
+    }
+   ]
+  }
+ ],
+ "mots_par_seconde": 3.0,
+ "levier": "identification",
+ "livrables": {
+  "numero": 3,
+  "description": "Tu crois être allé trop loin pour revenir vers Dieu ? Jésus a raconté une histoire pour toi. Luc 15.",
+  "hashtag": "#pardon",
+  "situation": "sentiment d'être allé trop loin",
+  "invitation": "prière"
+ },
+ "dosage": "recit"
+}

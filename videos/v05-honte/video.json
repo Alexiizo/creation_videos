@@ -1,0 +1,1820 @@
+{
+ "titre": "Quand tu as honte",
+ "type_video": "recit",
+ "passage": "Jean 21:1-19",
+ "pont": {
+  "ref": "1 Jean 1:9"
+ },
+ "levier": "identification",
+ "mots_rouges": [
+  "Jésus"
+ ],
+ "style": {
+  "format": "lumiere",
+  "grain": 0.05,
+  "musique": {
+   "tonalite": "A",
+   "tempo": 64,
+   "humeur": "intime"
+  }
+ },
+ "mots_par_seconde": 3.0,
+ "personnages": {
+  "hugo": {
+   "silhouette": "homme",
+   "age": "jeune",
+   "traits": "simple",
+   "tete": 1.3,
+   "peau": "#e2b48c",
+   "cheveux": {
+    "style": "court",
+    "couleur": "#3b2a1c"
+   },
+   "haut": {
+    "couleur": "#5a6b4a",
+    "col": "capuche"
+   },
+   "bas": {
+    "type": "pantalon",
+    "couleur": "#2a2f3c"
+   },
+   "chaussures": {
+    "type": "baskets",
+    "couleur": "#f2f0ea"
+   }
+  },
+  "jesus": {
+   "silhouette": "homme",
+   "traits": "simple",
+   "tete": 1.2,
+   "peau": "#ad7650",
+   "cheveux": {
+    "style": "long",
+    "couleur": "#24180f"
+   },
+   "barbe": {
+    "style": "courte",
+    "couleur": "#24180f"
+   },
+   "haut": {
+    "couleur": "#efe6d6",
+    "longueur": "chevilles",
+    "col": "tunique"
+   },
+   "bas": null,
+   "manteau": {
+    "type": "drape",
+    "couleur": "#9b2a26"
+   },
+   "chaussures": {
+    "type": "sandales",
+    "couleur": "#5a3f28"
+   }
+  },
+  "pierre": {
+   "silhouette": "homme",
+   "age": "adulte",
+   "traits": "simple",
+   "tete": 1.2,
+   "peau": "#a86e48",
+   "cheveux": {
+    "style": "court",
+    "couleur": "#4a3626"
+   },
+   "barbe": {
+    "style": "courte",
+    "couleur": "#4a3626"
+   },
+   "haut": {
+    "couleur": "#8a6a48",
+    "longueur": "chevilles",
+    "col": "tunique"
+   },
+   "bas": null,
+   "ceinture": "#3a2a1e",
+   "manteau": {
+    "type": "drape",
+    "couleur": "#4f6a5a"
+   },
+   "chaussures": {
+    "type": "sandales",
+    "couleur": "#5a3f28"
+   }
+  },
+  "servante": {
+   "silhouette": "femme",
+   "age": "adulte",
+   "traits": "simple",
+   "tete": 1.2,
+   "peau": "#b88356",
+   "cheveux": {
+    "style": "long",
+    "couleur": "#1c130d"
+   },
+   "coiffe": {
+    "type": "voile",
+    "couleur": "#c9b48e"
+   },
+   "haut": {
+    "couleur": "#7a5a6a",
+    "longueur": "chevilles",
+    "col": "tunique"
+   },
+   "bas": null,
+   "chaussures": {
+    "type": "sandales",
+    "couleur": "#5a3f28"
+   }
+  },
+  "garde": {
+   "silhouette": "homme",
+   "age": "adulte",
+   "traits": "simple",
+   "tete": 1.2,
+   "peau": "#9c6644",
+   "cheveux": {
+    "style": "court",
+    "couleur": "#1c130d"
+   },
+   "barbe": {
+    "style": "courte",
+    "couleur": "#1c130d"
+   },
+   "haut": {
+    "couleur": "#5a4a3a",
+    "longueur": "genoux",
+    "col": "tunique"
+   },
+   "bas": null,
+   "ceinture": "#2a1a12",
+   "chaussures": {
+    "type": "sandales",
+    "couleur": "#3a2a1e"
+   }
+  }
+ },
+ "lieux": {
+  "rue": {
+   "heure": "nuit",
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": 1
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "profondeur": 0
+    },
+    {
+     "gen": "ville",
+     "style": "moderne",
+     "nuit": true,
+     "rangees": [
+      {
+       "y": 700,
+       "h": [
+        220,
+        460
+       ],
+       "echelle": 0.55
+      }
+     ],
+     "de": -300,
+     "a": 1400,
+     "seed": 4,
+     "profondeur": 0.3
+    },
+    {
+     "gen": "sol",
+     "y": 700,
+     "matiere": "dalles",
+     "couleur": "#4c4f58",
+     "profondeur": 1
+    }
+   ],
+   "objets": [
+    {
+     "gen": "objet",
+     "type": "haie",
+     "x": -260,
+     "y": 800,
+     "l": 5600,
+     "h": 420,
+     "couleur": "#2f4636"
+    },
+    {
+     "gen": "lampadaire",
+     "x": 1010,
+     "y": 930,
+     "h": 620,
+     "sens": -1
+    },
+    {
+     "gen": "objet",
+     "type": "abribus",
+     "x": 120,
+     "y": 1010,
+     "banc": false,
+     "allume": true
+    },
+    {
+     "gen": "meuble",
+     "type": "banc",
+     "x": 330,
+     "y": 1085,
+     "l": 380,
+     "h": 118,
+     "prof": 80,
+     "couleur": "#5a606a"
+    }
+   ]
+  },
+  "oliviers": {
+   "heure": "nuit",
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": -1
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "profondeur": 0
+    },
+    {
+     "gen": "relief",
+     "y": 690,
+     "amplitude": 120,
+     "couleur": "#2a3040",
+     "profondeur": 0.15,
+     "seed": 2
+    },
+    {
+     "gen": "sol",
+     "y": 700,
+     "matiere": "terre",
+     "couleur": "#4a4436",
+     "profondeur": 1
+    },
+    {
+     "gen": "arbre",
+     "espece": "olivier",
+     "x": 90,
+     "y": 900,
+     "hauteur": 470,
+     "seed": 3,
+     "profondeur": 1
+    },
+    {
+     "gen": "arbre",
+     "espece": "olivier",
+     "x": 980,
+     "y": 860,
+     "hauteur": 420,
+     "seed": 7,
+     "profondeur": 1
+    }
+   ]
+  },
+  "cour": {
+   "heure": "nuit",
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": -1
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "profondeur": 0
+    },
+    {
+     "gen": "piece",
+     "fond": [
+      -160,
+      300,
+      1240,
+      880
+     ],
+     "mur": {
+      "couleur": "#6a5a4a",
+      "matiere": "pierre"
+     },
+     "sol": {
+      "couleur": "#4a3e34",
+      "matiere": "dalles"
+     },
+     "plafond": false,
+     "profondeur": 0.95
+    }
+   ],
+   "objets": [
+    {
+     "gen": "feu",
+     "x": 430,
+     "y": 1010,
+     "taille": 110,
+     "braise": true
+    },
+    {
+     "gen": "lumiere",
+     "pos": [
+      430,
+      930
+     ],
+     "rayon": 460,
+     "couleur": "#ff9a4a",
+     "intensite": 0.45,
+     "y_sol": 1010
+    }
+   ]
+  },
+  "dehors": {
+   "heure": "nuit",
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": 1
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "profondeur": 0
+    },
+    {
+     "gen": "sol",
+     "y": 700,
+     "matiere": "pave",
+     "couleur": "#4a4036",
+     "profondeur": 1
+    },
+    {
+     "gen": "batiment",
+     "x": -120,
+     "y": 1000,
+     "l": 1320,
+     "h": 640,
+     "style": "antique",
+     "couleur": "#7a6a58",
+     "cote": 0,
+     "profondeur": 1
+    }
+   ]
+  },
+  "croix": {
+   "heure": "soir",
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": 1,
+    "contre_jour": true
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "profondeur": 0
+    },
+    {
+     "gen": "relief",
+     "y": 860,
+     "amplitude": 40,
+     "couleur": "#2c2028",
+     "profondeur": 1,
+     "seed": 9
+    }
+   ]
+  },
+  "tombeau": {
+   "heure": "aube",
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": 1
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "profondeur": 0
+    },
+    {
+     "gen": "sol",
+     "y": 700,
+     "matiere": "terre",
+     "couleur": "#a89070",
+     "profondeur": 1
+    }
+   ]
+  },
+  "rivage": {
+   "heure": "aube",
+   "sol": {
+    "horizon": 640,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": 1
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "profondeur": 0
+    },
+    {
+     "gen": "relief",
+     "y": 640,
+     "amplitude": 140,
+     "couleur": "#8a7a88",
+     "profondeur": 0.12,
+     "seed": 6
+    },
+    {
+     "gen": "eau",
+     "y": 640,
+     "agitation": 0.06,
+     "couleur": "#6f9fb0",
+     "astre_x": 860
+    },
+    {
+     "gen": "barque",
+     "id": "barque",
+     "x": 880,
+     "y": 705,
+     "l": 700,
+     "sens": -1,
+     "tangue": 1.2,
+     "eau": "#6f9fb0",
+     "profondeur": 0.3
+    },
+    {
+     "gen": "sol",
+     "y": 720,
+     "matiere": "sable",
+     "couleur": "#cdb48a",
+     "profondeur": 1
+    }
+   ],
+   "objets": [
+    {
+     "gen": "feu",
+     "x": 540,
+     "y": 1000,
+     "taille": 120,
+     "braise": true,
+     "poissons": 2,
+     "pains": 2
+    }
+   ]
+  },
+  "rivage_or": {
+   "heure": "or",
+   "sol": {
+    "horizon": 640,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": 1
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "profondeur": 0
+    },
+    {
+     "gen": "relief",
+     "y": 640,
+     "amplitude": 140,
+     "couleur": "#c9a97a",
+     "profondeur": 0.12,
+     "seed": 6
+    },
+    {
+     "gen": "eau",
+     "y": 640,
+     "agitation": 0.06,
+     "couleur": "#6f9fb0",
+     "astre_x": 860
+    },
+    {
+     "gen": "barque",
+     "id": "barque",
+     "x": 880,
+     "y": 705,
+     "l": 700,
+     "sens": -1,
+     "tangue": 1.2,
+     "eau": "#6f9fb0",
+     "profondeur": 0.3
+    },
+    {
+     "gen": "sol",
+     "y": 720,
+     "matiere": "sable",
+     "couleur": "#cdb48a",
+     "profondeur": 1
+    }
+   ],
+   "objets": [
+    {
+     "gen": "feu",
+     "x": 540,
+     "y": 1000,
+     "taille": 120,
+     "braise": true,
+     "poissons": 2,
+     "pains": 2
+    }
+   ],
+   "panneau": {
+    "fond": "#f6cf7d",
+    "fond2": "#e39a42",
+    "texte": "#2b1c0e",
+    "gris": "#a8742f",
+    "actif": "#fffaf0",
+    "lueur": "#fff3c4"
+   }
+  }
+ },
+ "plans": [
+  {
+   "texte": "Tu as fait quelque chose.",
+   "registre": "aujourdhui",
+   "lieu": "rue",
+   "acteurs": [
+    {
+     "id": "hugo",
+     "x": 500,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "tete_baissee",
+       "visage": "honte",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80,
+        "cou": 26
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "hugo",
+     "plan": "americain"
+    },
+    {
+     "t": "fin",
+     "cadre": "hugo",
+     "plan": "serre"
+    }
+   ]
+  },
+  {
+   "texte": "Personne ne le sait. Mais toi, tu le sais.",
+   "registre": "aujourdhui",
+   "lieu": "rue",
+   "graphiques": [
+    {
+     "type": "goutte",
+     "sur": "hugo",
+     "mot": "toi"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "hugo",
+     "x": 500,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "tete_baissee",
+       "visage": "honte",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80,
+        "cou": 26
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "hugo",
+     "plan": "serre"
+    },
+    {
+     "t": "fin",
+     "cadre": "hugo",
+     "plan": "serre"
+    }
+   ]
+  },
+  {
+   "texte": "Et tu te dis : “Dieu ne voudra plus de moi.”",
+   "registre": "aujourdhui",
+   "lieu": "rue",
+   "graphiques": [
+    {
+     "type": "pensee",
+     "sur": "hugo",
+     "icone": "church",
+     "mot": "Dieu"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "hugo",
+     "x": 500,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "mains_visage",
+       "visage": "triste",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "hugo",
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": "hugo",
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "Pierre avait juré à Jésus : « Quand il me faudrait mourir avec toi, je ne te renierai pas. »",
+   "registre": "recit",
+   "appui": [
+    "Matthieu 26:35"
+   ],
+   "cite": [
+    {
+     "ref": "Matthieu 26:35"
+    }
+   ],
+   "lieu": "oliviers",
+   "transition": "fondu",
+   "graphiques": [
+    {
+     "type": "badge",
+     "texte": "Une histoire vraie · Luc 22 · Jean 21",
+     "t": 0.1,
+     "fin": 2.2
+    },
+    {
+     "type": "citation",
+     "entete": "PIERRE JURE",
+     "ref": "Matthieu 26:35",
+     "texte": "Quand il me faudrait mourir avec toi, je ne te renierai pas.",
+     "mot": "Quand"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 400,
+     "y": 1040,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "doux",
+       "pose": "debout",
+       "regarde": "pierre"
+      }
+     ]
+    },
+    {
+     "id": "pierre",
+     "x": 690,
+     "y": 1050,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "neutre",
+       "pose": "debout",
+       "regarde": "jesus"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "jesus",
+      "pierre"
+     ],
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "jesus",
+      "pierre"
+     ],
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "La même nuit, Jésus est arrêté.",
+   "registre": "recit",
+   "appui": [
+    "Luc 22:54"
+   ],
+   "lieu": "cour",
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "jesus",
+      "garde"
+     ],
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "jesus",
+      "garde"
+     ],
+     "plan": "americain"
+    }
+   ],
+   "objets": [],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 800,
+     "y": 905,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "paix"
+      }
+     ]
+    },
+    {
+     "id": "garde",
+     "x": 920,
+     "y": 905,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "neutre",
+       "pose": "debout",
+       "regarde": "jesus"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "texte": "Pierre le suit, et se chauffe près d'un brasier.",
+   "registre": "recit",
+   "appui": [
+    "Luc 22:54",
+    "Jean 18:18"
+   ],
+   "lieu": "cour",
+   "objets": [],
+   "acteurs": [
+    {
+     "id": "pierre",
+     "x": 300,
+     "y": 1040,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "neutre",
+       "pose": "debout",
+       "regarde": "servante"
+      }
+     ]
+    },
+    {
+     "id": "servante",
+     "x": 610,
+     "y": 1020,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "neutre",
+       "pose": "debout",
+       "regarde": "pierre"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "pierre",
+      "servante"
+     ],
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "pierre",
+      "servante"
+     ],
+     "plan": "americain"
+    }
+   ]
+  },
+  {
+   "texte": "Trois fois, on lui demande : “Toi aussi, tu étais avec lui ?”",
+   "registre": "recit",
+   "appui": [
+    "Jean 18:17",
+    "Jean 18:25-26"
+   ],
+   "lieu": "cour",
+   "objets": [],
+   "acteurs": [
+    {
+     "id": "pierre",
+     "x": 300,
+     "y": 1040,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "neutre",
+       "pose": "debout",
+       "regarde": "servante"
+      }
+     ]
+    },
+    {
+     "id": "servante",
+     "x": 610,
+     "y": 1020,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "inquiet",
+       "regarde": "pierre"
+      },
+      {
+       "mot": "demande",
+       "pose": "pointe",
+       "visage": "surprise"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "pierre",
+     "plan": "americain"
+    },
+    {
+     "t": "fin",
+     "cadre": "pierre",
+     "plan": "americain"
+    }
+   ]
+  },
+  {
+   "texte": "Il jure : « Je ne connais pas cet homme. »",
+   "registre": "recit",
+   "appui": [
+    "Matthieu 26:72"
+   ],
+   "cite": [
+    {
+     "ref": "Matthieu 26:72"
+    }
+   ],
+   "lieu": "cour",
+   "graphiques": [
+    {
+     "type": "citation",
+     "entete": "PIERRE JURE",
+     "ref": "Matthieu 26:72",
+     "texte": "Je ne connais pas cet homme.",
+     "mot": "connais"
+    }
+   ],
+   "objets": [],
+   "acteurs": [
+    {
+     "id": "pierre",
+     "x": 300,
+     "y": 1040,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "bras_croises",
+       "visage": "peur",
+       "regarde": "servante"
+      }
+     ]
+    },
+    {
+     "id": "servante",
+     "x": 610,
+     "y": 1020,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "inquiet",
+       "pose": "debout",
+       "regarde": "pierre"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "pierre",
+     "plan": "americain"
+    },
+    {
+     "t": "fin",
+     "cadre": "pierre",
+     "plan": "americain"
+    }
+   ]
+  },
+  {
+   "texte": "Et aussitôt, le coq chante.",
+   "registre": "recit",
+   "appui": [
+    "Jean 18:27"
+   ],
+   "lieu": "cour",
+   "camera": [
+    {
+     "t": 0,
+     "x": 860,
+     "y": 250,
+     "zoom": 3.0
+    },
+    {
+     "t": "fin",
+     "x": 860,
+     "y": 250,
+     "zoom": 3.3
+    }
+   ],
+   "objets": [
+    {
+     "gen": "animal",
+     "espece": "coq",
+     "x": 860,
+     "y": 300,
+     "y_sol": 880,
+     "taille": 130,
+     "sens": -1,
+     "pose": "chante",
+     "profondeur": 0.95
+    }
+   ],
+   "acteurs": []
+  },
+  {
+   "texte": "Jésus se retourne… et regarde Pierre.",
+   "registre": "recit",
+   "appui": [
+    "Luc 22:61"
+   ],
+   "lieu": "cour",
+   "objets": [],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 800,
+     "y": 905,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "paix",
+       "vue": 150
+      },
+      {
+       "mot": "retourne",
+       "vue": 0,
+       "regarde": "pierre",
+       "visage": "tendre"
+      }
+     ]
+    },
+    {
+     "id": "garde",
+     "x": 920,
+     "y": 905,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "neutre",
+       "pose": "debout",
+       "regarde": "jesus"
+      }
+     ]
+    },
+    {
+     "id": "pierre",
+     "x": 300,
+     "y": 1040,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "peur"
+      },
+      {
+       "mot": "Pierre",
+       "regarde": "jesus",
+       "visage": "honte"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "jesus",
+      "garde"
+     ],
+     "plan": "moyen"
+    },
+    {
+     "mot": "Pierre",
+     "cadre": "pierre",
+     "plan": "serre",
+     "coupe": true
+    },
+    {
+     "t": "fin",
+     "cadre": "pierre",
+     "plan": "serre"
+    }
+   ]
+  },
+  {
+   "texte": "Pierre sort… et il pleure amèrement.",
+   "registre": "recit",
+   "appui": [
+    "Luc 22:62"
+   ],
+   "lieu": "dehors",
+   "acteurs": [
+    {
+     "id": "pierre",
+     "x": 520,
+     "y": 1040,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "tete_baissee",
+       "visage": "honte"
+      },
+      {
+       "mot": "pleure",
+       "pose": "assis_sol_tete",
+       "visage": "pleure"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "pierre",
+     "plan": "large"
+    },
+    {
+     "t": "fin",
+     "cadre": "pierre",
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "Jésus meurt sur la croix.",
+   "registre": "recit",
+   "appui": [
+    "Luc 23:46"
+   ],
+   "lieu": "croix",
+   "transition": "fondu",
+   "objets": [
+    {
+     "gen": "croix",
+     "x": 540,
+     "y": 872,
+     "h": 1000,
+     "n": 3,
+     "silhouette": true,
+     "ecart": 640
+    }
+   ]
+  },
+  {
+   "texte": "Mais trois jours après, il est vivant.",
+   "registre": "recit",
+   "appui": [
+    "Luc 24:6"
+   ],
+   "lieu": "tombeau",
+   "transition": "blanc",
+   "objets": [
+    {
+     "gen": "tombeau",
+     "x": 540,
+     "y": 1000,
+     "l": 900,
+     "h": 620,
+     "ouvert": 1,
+     "lumiere": 1
+    }
+   ]
+  },
+  {
+   "texte": "Un matin, au bord du lac, il les attend près d'un feu de braises.",
+   "registre": "recit",
+   "appui": [
+    "Jean 21:4",
+    "Jean 21:9"
+   ],
+   "lieu": "rivage",
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 330,
+     "y": 1030,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "accroupi",
+       "visage": "doux"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "jesus",
+     "plan": "large",
+     "dx": 110
+    },
+    {
+     "t": "fin",
+     "cadre": "jesus",
+     "plan": "moyen",
+     "dx": 75
+    }
+   ]
+  },
+  {
+   "texte": "En grec, c'est le même mot que la nuit où Pierre l'a renié.",
+   "registre": "explication",
+   "appui": [
+    "Jean 18:18",
+    "Jean 21:9"
+   ],
+   "lieu": "rivage",
+   "graphiques": [
+    {
+     "type": "definition",
+     "terme": "un feu de braises",
+     "langue": "grec",
+     "original": "ἀνθρακιά",
+     "translit": "anthrakia",
+     "sens": "Deux fois seulement dans le Nouveau Testament : la nuit où Pierre renie Jésus, et ce matin-là.",
+     "ref": "Jean 18:18 · Jean 21:9",
+     "mot": "grec"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 330,
+     "y": 1030,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "accroupi",
+       "visage": "doux"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "jesus",
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": "jesus",
+     "plan": "americain"
+    }
+   ]
+  },
+  {
+   "texte": "Trois fois, Pierre avait dit non.",
+   "registre": "recit",
+   "appui": [
+    "Jean 18:27"
+   ],
+   "lieu": "rivage_or",
+   "transition": "fondu",
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 410,
+     "y": 1030,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "assis_sol",
+       "visage": "doux",
+       "regarde": "pierre"
+      }
+     ]
+    },
+    {
+     "id": "pierre",
+     "x": 680,
+     "y": 1030,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "assis_sol",
+       "visage": "honte",
+       "regarde": "sol"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "jesus",
+      "pierre"
+     ],
+     "plan": "large"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "jesus",
+      "pierre"
+     ],
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "Trois fois, Jésus lui demande : « Simon, fils de Jonas, m'aimes-tu? »",
+   "registre": "recit",
+   "appui": [
+    "Jean 21:15-17"
+   ],
+   "cite": [
+    {
+     "ref": "Jean 21:17",
+     "qui": "jesus"
+    }
+   ],
+   "lieu": "rivage_or",
+   "graphiques": [
+    {
+     "type": "citation",
+     "entete": "JÉSUS DEMANDE",
+     "ref": "Jean 21:17",
+     "texte": "Simon, fils de Jonas, m'aimes-tu?",
+     "mot": "Simon"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 410,
+     "y": 1030,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "assis_sol",
+       "visage": "tendre",
+       "regarde": "pierre"
+      }
+     ]
+    },
+    {
+     "id": "pierre",
+     "x": 680,
+     "y": 1030,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "assis_sol",
+       "visage": "triste",
+       "regarde": "sol"
+      },
+      {
+       "mot": "aimes",
+       "regarde": "jesus",
+       "visage": "pleure"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "jesus",
+      "pierre"
+     ],
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "jesus",
+      "pierre"
+     ],
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "Et chaque fois, il lui confie son troupeau : « Pais mes brebis. »",
+   "registre": "recit",
+   "appui": [
+    "Jean 21:15-17"
+   ],
+   "cite": [
+    {
+     "ref": "Jean 21:17",
+     "qui": "jesus"
+    }
+   ],
+   "lieu": "rivage_or",
+   "graphiques": [
+    {
+     "type": "citation",
+     "entete": "JÉSUS DIT",
+     "ref": "Jean 21:17",
+     "texte": "Pais mes brebis.",
+     "mot": "Pais"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 410,
+     "y": 1030,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "assis_sol",
+       "visage": "tendre",
+       "regarde": "pierre"
+      }
+     ]
+    },
+    {
+     "id": "pierre",
+     "x": 680,
+     "y": 1030,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "assis_sol",
+       "visage": "pleure",
+       "regarde": "jesus"
+      },
+      {
+       "mot": "Pais",
+       "visage": "soulage"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "jesus",
+      "pierre"
+     ],
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "jesus",
+      "pierre"
+     ],
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "Jésus ne l'humilie pas. Il le relève.",
+   "registre": "explication",
+   "appui": [
+    "Jean 21:15-17"
+   ],
+   "lieu": "rivage_or",
+   "graphiques": [
+    {
+     "type": "texte",
+     "texte": "Il ne l'humilie pas. Il le *relève*.",
+     "y": 330,
+     "taille": 74
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 400,
+     "y": 1030,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "tendre",
+       "regarde": "pierre"
+      },
+      {
+       "mot": "relève",
+       "pose": "tend_main",
+       "visage": "joie"
+      }
+     ]
+    },
+    {
+     "id": "pierre",
+     "x": 700,
+     "y": 1030,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "assis_sol",
+       "visage": "soulage",
+       "regarde": "jesus"
+      },
+      {
+       "mot": "relève",
+       "pose": "debout",
+       "visage": "joie"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "jesus",
+      "pierre"
+     ],
+     "plan": "ensemble"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "jesus",
+      "pierre"
+     ],
+     "plan": "ensemble"
+    }
+   ]
+  },
+  {
+   "texte": "Ce que tu as fait, il le sait déjà.",
+   "registre": "aujourdhui",
+   "lieu": "rue",
+   "transition": "fondu",
+   "acteurs": [
+    {
+     "id": "hugo",
+     "x": 500,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "tete_baissee",
+       "visage": "honte",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80,
+        "cou": 26
+       }
+      },
+      {
+       "mot": "sait",
+       "pose": "leve_tete",
+       "visage": "inquiet",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "hugo",
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": "hugo",
+     "plan": "americain"
+    }
+   ]
+  },
+  {
+   "texte": "Et il t'attend quand même.",
+   "registre": "aujourdhui",
+   "lieu": "rue",
+   "acteurs": [
+    {
+     "id": "hugo",
+     "x": 500,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "leve_tete",
+       "visage": "inquiet",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      },
+      {
+       "mot": "attend",
+       "visage": "soulage"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "hugo",
+     "plan": "americain"
+    },
+    {
+     "t": "fin",
+     "cadre": "hugo",
+     "plan": "americain"
+    }
+   ]
+  },
+  {
+   "texte": "La Bible le promet : « Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner »",
+   "registre": "aujourdhui",
+   "cite": [
+    {
+     "ref": "1 Jean 1:9"
+    }
+   ],
+   "lieu": "rue",
+   "graphiques": [
+    {
+     "type": "citation",
+     "entete": "LA BIBLE DIT",
+     "ref": "1 Jean 1:9",
+     "texte": "Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner",
+     "mot": "confessons"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "hugo",
+     "x": 500,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "tendre",
+       "pose": "leve_tete",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "hugo",
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": "hugo",
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "Dis-lui ce que tu as fait. Simplement.",
+   "registre": "invitation",
+   "lieu": "rue",
+   "acteurs": [
+    {
+     "id": "hugo",
+     "x": 500,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "paix",
+       "pose": "prie",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       },
+       "regarde": "camera"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "hugo",
+     "plan": "serre"
+    },
+    {
+     "t": "fin",
+     "cadre": "hugo",
+     "plan": "serre"
+    }
+   ]
+  },
+  {
+   "texte": "“Jésus, j'ai honte. Relève-moi.”",
+   "registre": "invitation",
+   "lieu": "rue",
+   "acteurs": [
+    {
+     "id": "hugo",
+     "x": 500,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "prie",
+       "visage": "paix",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "hugo",
+     "plan": "americain"
+    },
+    {
+     "t": "fin",
+     "cadre": "hugo",
+     "plan": "americain"
+    }
+   ]
+  },
+  {
+   "duree": 3.6,
+   "fin": true,
+   "lieu": "rue",
+   "graphiques": [
+    {
+     "type": "fin",
+     "ligne": "Jean 21:1-19",
+     "texte": "Il relève.",
+     "sous": "Lis toute l'histoire",
+     "t": 0
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "anthrakia": "ἀνθρακιά (« feu de braises », Strong G439) : 2 occurrences dans le Nouveau Testament, Jean 18:18 et Jean 21:9 — biblehub.com/greek/439.htm et blueletterbible.org/lexicon/g439, consultés le 25/11/2026"
+ },
+ "livrables": {
+  "numero": 5,
+  "description": "Pierre a renié Jésus trois fois. Jésus l'a relevé près d'un feu. Ce que tu as fait, il le sait : il t'attend. Jean 21.",
+  "hashtag": "#honte",
+  "situation": "la honte d'une faute que personne ne connaît",
+  "invitation": "prière"
+ },
+ "dosage": "recit"
+}

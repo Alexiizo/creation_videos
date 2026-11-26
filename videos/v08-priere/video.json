@@ -1,0 +1,1475 @@
+{
+ "titre": "Quand Dieu ne répond pas",
+ "type_video": "recit",
+ "dosage": "question",
+ "passage": "Matthieu 26:36-46",
+ "pont": {
+  "ref": "Philippiens 4:7"
+ },
+ "levier": "identification",
+ "mots_rouges": [
+  "Jésus"
+ ],
+ "style": {
+  "format": "lumiere",
+  "grain": 0.05,
+  "musique": {
+   "tonalite": "D",
+   "tempo": 62,
+   "humeur": "intime"
+  }
+ },
+ "mots_par_seconde": 3.0,
+ "personnages": {
+  "malik": {
+   "silhouette": "homme",
+   "age": "jeune",
+   "traits": "simple",
+   "tete": 1.25,
+   "peau": "#7a4e34",
+   "cheveux": {
+    "style": "boucles",
+    "couleur": "#15100c"
+   },
+   "haut": {
+    "couleur": "#b5543f",
+    "col": "chemise"
+   },
+   "bas": {
+    "type": "pantalon",
+    "couleur": "#2f3546"
+   },
+   "chaussures": {
+    "type": "baskets",
+    "couleur": "#e8e4da"
+   }
+  },
+  "jesus": {
+   "silhouette": "homme",
+   "traits": "simple",
+   "tete": 1.2,
+   "peau": "#ad7650",
+   "cheveux": {
+    "style": "long",
+    "couleur": "#24180f"
+   },
+   "barbe": {
+    "style": "courte",
+    "couleur": "#24180f"
+   },
+   "haut": {
+    "couleur": "#efe6d6",
+    "longueur": "chevilles",
+    "col": "tunique"
+   },
+   "bas": null,
+   "manteau": {
+    "type": "drape",
+    "couleur": "#9b2a26"
+   },
+   "chaussures": {
+    "type": "sandales",
+    "couleur": "#5a3f28"
+   }
+  },
+  "mere": {
+   "silhouette": "femme",
+   "age": "adulte",
+   "traits": "simple",
+   "tete": 1.15,
+   "peau": "#845638",
+   "cheveux": {
+    "style": "court",
+    "couleur": "#2a1d16"
+   },
+   "haut": {
+    "couleur": "#d9e6e8",
+    "col": "rond",
+    "manches": "longues",
+    "longueur": "hanches"
+   },
+   "bas": {
+    "type": "pantalon",
+    "couleur": "#9cc4cf"
+   },
+   "chaussures": {
+    "type": "pieds_nus"
+   }
+  }
+ },
+ "lieux": {
+  "hopital": {
+   "heure": "nuit",
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": -1,
+    "expo": 0.93,
+    "teinte": [
+     "#b9d2e2",
+     0.18
+    ]
+   },
+   "couches": [
+    {
+     "gen": "piece",
+     "fond": [
+      -150,
+      220,
+      1230,
+      860
+     ],
+     "mur": {
+      "couleur": "#8fa8ad",
+      "matiere": "enduit"
+     },
+     "sol": {
+      "couleur": "#6d7a7e",
+      "matiere": "carrelage"
+     },
+     "plafond": "#8b9c9f",
+     "profondeur": 0.95,
+     "fenetres": [
+      {
+       "x": 60,
+       "y": 533,
+       "l": 260,
+       "h": 222,
+       "ciel": "nuit",
+       "ville": true
+      }
+     ]
+    }
+   ],
+   "objets": [
+    {
+     "gen": "objet",
+     "type": "horloge",
+     "x": 820,
+     "y": 610,
+     "y_sol": 860,
+     "l": 120,
+     "heure": 3,
+     "minute": 20
+    },
+    {
+     "gen": "objet",
+     "type": "lit_hopital",
+     "x": 520,
+     "y": 960
+    },
+    {
+     "gen": "objet",
+     "type": "perfusion",
+     "x": 1000,
+     "y": 930
+    },
+    {
+     "gen": "objet",
+     "type": "moniteur",
+     "x": 470,
+     "y": 930,
+     "h": 430
+    },
+    {
+     "gen": "lumiere",
+     "pos": [
+      762,
+      585
+     ],
+     "rayon": 420,
+     "couleur": "#cfe8f2",
+     "intensite": 0.4,
+     "y_sol": 900
+    },
+    {
+     "gen": "meuble",
+     "type": "chaise",
+     "x": 250,
+     "y": 1085,
+     "l": 150,
+     "h": 237,
+     "prof": 120,
+     "couleur": "#4f6470"
+    },
+    {
+     "gen": "objet",
+     "type": "applique",
+     "x": 725,
+     "y": 600,
+     "y_sol": 860,
+     "l": 170,
+     "h": 110,
+     "couleur2": "#e6f4f8"
+    }
+   ]
+  },
+  "couloir": {
+   "heure": "nuit",
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": 1,
+    "expo": 0.93,
+    "teinte": [
+     "#b9d2e2",
+     0.18
+    ]
+   },
+   "couches": [
+    {
+     "gen": "piece",
+     "fond": [
+      -150,
+      220,
+      1230,
+      860
+     ],
+     "mur": {
+      "couleur": "#93a6a8",
+      "matiere": "enduit"
+     },
+     "sol": {
+      "couleur": "#75807f",
+      "matiere": "carrelage"
+     },
+     "plafond": "#8b9c9f",
+     "profondeur": 0.95,
+     "portes": [
+      {
+       "x": 640,
+       "l": 190,
+       "h": 245,
+       "couleur": "#6f8a8f"
+      }
+     ]
+    }
+   ],
+   "objets": [
+    {
+     "gen": "lumiere",
+     "pos": [
+      438,
+      360
+     ],
+     "rayon": 480,
+     "couleur": "#dff0f2",
+     "intensite": 0.42,
+     "y_sol": 900
+    },
+    {
+     "gen": "meuble",
+     "type": "banc",
+     "x": 280,
+     "y": 1085,
+     "l": 420,
+     "h": 118,
+     "prof": 90,
+     "couleur": "#5f7a86"
+    },
+    {
+     "gen": "objet",
+     "type": "applique",
+     "type2": "neon",
+     "x": 300,
+     "y": 345,
+     "y_sol": 860,
+     "l": 620,
+     "h": 60,
+     "couleur2": "#e8f6f8"
+    },
+    {
+     "gen": "objet",
+     "type": "plante",
+     "x": 150,
+     "y": 930,
+     "couleur": "#8a97a0"
+    },
+    {
+     "gen": "objet",
+     "type": "cadre",
+     "x": 330,
+     "y": 712,
+     "y_sol": 860,
+     "l": 210,
+     "h": 160,
+     "couleur": "#5f7a80"
+    }
+   ]
+  },
+  "jardin": {
+   "heure": "nuit",
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": -1
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "profondeur": 0
+    },
+    {
+     "gen": "relief",
+     "y": 700,
+     "amplitude": 130,
+     "couleur": "#2c3546",
+     "profondeur": 0.15,
+     "seed": 2
+    },
+    {
+     "gen": "sol",
+     "y": 700,
+     "matiere": "herbe",
+     "couleur": "#56604a",
+     "profondeur": 1
+    },
+    {
+     "gen": "arbre",
+     "espece": "olivier",
+     "x": 120,
+     "y": 880,
+     "hauteur": 520,
+     "seed": 3,
+     "profondeur": 1
+    },
+    {
+     "gen": "arbre",
+     "espece": "olivier",
+     "x": 900,
+     "y": 850,
+     "hauteur": 480,
+     "seed": 7,
+     "profondeur": 1
+    },
+    {
+     "gen": "rochers",
+     "x": 820,
+     "y": 1030,
+     "l": 220,
+     "h": 120,
+     "n": 2,
+     "couleur": "#6a6a66",
+     "seed": 4
+    },
+    {
+     "gen": "premier_plan",
+     "type": "feuillage",
+     "cote": 1,
+     "couleur": "#1c2a22",
+     "devant": true,
+     "profondeur": 1.35,
+     "opacite": 0.9
+    }
+   ]
+  },
+  "croix": {
+   "heure": "soir",
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": 1,
+    "contre_jour": true
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "profondeur": 0
+    },
+    {
+     "gen": "relief",
+     "y": 860,
+     "amplitude": 40,
+     "couleur": "#2c2028",
+     "profondeur": 1,
+     "seed": 5
+    }
+   ]
+  },
+  "tombeau": {
+   "heure": "or",
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": 1
+   },
+   "panneau": {
+    "fond": "#f6cf7d",
+    "fond2": "#e39a42",
+    "texte": "#2b1c0e",
+    "gris": "#a8742f",
+    "actif": "#fffaf0",
+    "lueur": "#fff3c4"
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "profondeur": 0
+    },
+    {
+     "gen": "sol",
+     "y": 700,
+     "matiere": "terre",
+     "couleur": "#b09670",
+     "profondeur": 1
+    }
+   ]
+  }
+ },
+ "plans": [
+  {
+   "texte": "Tu as prié.",
+   "registre": "aujourdhui",
+   "lieu": "hopital",
+   "acteurs": [
+    {
+     "id": "malik",
+     "x": 325,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "prie",
+       "visage": "inquiet",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      }
+     ]
+    },
+    {
+     "id": "mere",
+     "x": 742,
+     "y": 962,
+     "sens": 1,
+     "dy": -122,
+     "echelle": 0.98,
+     "ombre": false,
+     "hors_champ_ok": true,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "allonge",
+       "visage": "yeux_fermes"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "malik",
+     "plan": "americain"
+    },
+    {
+     "t": "fin",
+     "cadre": "malik",
+     "plan": "serre"
+    }
+   ],
+   "objets": [
+    {
+     "gen": "objet",
+     "type": "lit_hopital",
+     "partie": "couverture",
+     "x": 520,
+     "y": 960,
+     "z_ordre": 964,
+     "ombre_sol": false
+    }
+   ]
+  },
+  {
+   "texte": "Des jours. Des nuits.",
+   "registre": "aujourdhui",
+   "lieu": "hopital",
+   "acteurs": [
+    {
+     "id": "malik",
+     "x": 325,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "prie",
+       "visage": "fatigue",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      },
+      {
+       "mot": "nuits",
+       "pose": "mains_visage",
+       "visage": "triste",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      }
+     ]
+    },
+    {
+     "id": "mere",
+     "x": 742,
+     "y": 962,
+     "sens": 1,
+     "dy": -122,
+     "echelle": 0.98,
+     "ombre": false,
+     "hors_champ_ok": true,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "allonge",
+       "visage": "yeux_fermes"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "malik",
+     "plan": "large",
+     "dx": 190
+    },
+    {
+     "t": "fin",
+     "cadre": "malik",
+     "plan": "large",
+     "dx": 190,
+     "zoom_k": 1.08
+    }
+   ],
+   "objets": [
+    {
+     "gen": "objet",
+     "type": "lit_hopital",
+     "partie": "couverture",
+     "x": 520,
+     "y": 960,
+     "z_ordre": 964,
+     "ombre_sol": false
+    }
+   ]
+  },
+  {
+   "texte": "Et rien n'a changé.",
+   "registre": "aujourdhui",
+   "lieu": "hopital",
+   "acteurs": [
+    {
+     "id": "malik",
+     "x": 325,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "mains_visage",
+       "visage": "triste",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      }
+     ]
+    },
+    {
+     "id": "mere",
+     "x": 742,
+     "y": 962,
+     "sens": 1,
+     "dy": -122,
+     "echelle": 0.98,
+     "ombre": false,
+     "hors_champ_ok": true,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "allonge",
+       "visage": "yeux_fermes"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "malik",
+     "plan": "serre"
+    },
+    {
+     "t": "fin",
+     "cadre": "malik",
+     "plan": "serre"
+    }
+   ],
+   "objets": [
+    {
+     "gen": "objet",
+     "type": "lit_hopital",
+     "partie": "couverture",
+     "x": 520,
+     "y": 960,
+     "z_ordre": 964,
+     "ombre_sol": false
+    }
+   ]
+  },
+  {
+   "texte": "Alors tu poses la vraie question : est-ce que Dieu écoute ?",
+   "registre": "aujourdhui",
+   "lieu": "couloir",
+   "graphiques": [
+    {
+     "type": "pensee",
+     "sur": "malik",
+     "icone": "circle-help",
+     "mot": "Dieu"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "malik",
+     "x": 490,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "tete_baissee",
+       "visage": "triste",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80,
+        "cou": 22
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "malik",
+     "plan": "large"
+    },
+    {
+     "t": "fin",
+     "cadre": "malik",
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "On va être honnête. La Bible ne promet pas un oui à chaque fois.",
+   "registre": "explication",
+   "appui": [
+    "2 Corinthiens 12:8-9"
+   ],
+   "lieu": "couloir",
+   "graphiques": [
+    {
+     "type": "texte",
+     "texte": "Pas un *oui* à chaque fois.",
+     "y": 260,
+     "synchro": false,
+     "mot": "promet",
+     "sous_titres": true
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "malik",
+     "x": 490,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "leve_tete",
+       "visage": "inquiet",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "malik",
+     "plan": "ensemble"
+    },
+    {
+     "t": "fin",
+     "cadre": "malik",
+     "plan": "ensemble"
+    }
+   ]
+  },
+  {
+   "texte": "Elle raconte même une prière de Jésus, la nuit avant sa mort.",
+   "registre": "recit",
+   "appui": [
+    "Matthieu 26:36"
+   ],
+   "lieu": "jardin",
+   "transition": "fondu",
+   "graphiques": [
+    {
+     "type": "badge",
+     "texte": "Une histoire vraie · Matthieu 26",
+     "t": 0.1,
+     "fin": 2.8
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 320,
+     "y": 1040,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "marche",
+       "visage": "triste",
+       "x": 520,
+       "duree": 3.2
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "jesus",
+     "plan": "large"
+    },
+    {
+     "mot": "raconte",
+     "cadre": "jesus",
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": "jesus",
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "Il tombe la face contre terre.",
+   "registre": "recit",
+   "appui": [
+    "Matthieu 26:39"
+   ],
+   "lieu": "jardin",
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 520,
+     "y": 1040,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "a_genoux",
+       "visage": "triste"
+      },
+      {
+       "mot": "tombe",
+       "pose": "prosterne",
+       "visage": "triste",
+       "transition": 0.9
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "jesus",
+     "plan": "large",
+     "dx": 60
+    },
+    {
+     "t": "fin",
+     "cadre": "jesus",
+     "plan": "large",
+     "dx": 95,
+     "y_ecran": 760
+    }
+   ]
+  },
+  {
+   "texte": "« Mon Père, s'il est possible, que cette coupe s'éloigne de moi! »",
+   "registre": "recit",
+   "appui": [
+    "Matthieu 26:39"
+   ],
+   "lieu": "jardin",
+   "cite": [
+    {
+     "ref": "Matthieu 26:39",
+     "qui": "jesus"
+    }
+   ],
+   "graphiques": [
+    {
+     "type": "citation",
+     "entete": "JÉSUS PRIE",
+     "ref": "Matthieu 26:39",
+     "texte": "Mon Père, s'il est possible, que cette coupe s'éloigne de moi!",
+     "mot": "Père"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 520,
+     "y": 1040,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "prie_genoux",
+       "visage": "triste",
+       "regarde": "ciel"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "jesus",
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": "jesus",
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "La coupe, c'est la souffrance qui vient. Il ne fait pas semblant.",
+   "registre": "explication",
+   "appui": [
+    "Matthieu 26:37-38"
+   ],
+   "lieu": "jardin",
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 520,
+     "y": 1040,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "prie_genoux",
+       "visage": "pleure",
+       "regarde": "ciel"
+      },
+      {
+       "mot": "semblant",
+       "visage": "triste",
+       "regarde": "sol"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "jesus",
+     "plan": "americain"
+    },
+    {
+     "t": "fin",
+     "cadre": "jesus",
+     "plan": "americain"
+    }
+   ]
+  },
+  {
+   "texte": "Puis il ajoute : « Toutefois, non pas ce que je veux, mais ce que tu veux. »",
+   "registre": "recit",
+   "appui": [
+    "Matthieu 26:39"
+   ],
+   "lieu": "jardin",
+   "cite": [
+    {
+     "ref": "Matthieu 26:39",
+     "qui": "jesus"
+    }
+   ],
+   "graphiques": [
+    {
+     "type": "citation",
+     "entete": "JÉSUS PRIE",
+     "ref": "Matthieu 26:39",
+     "texte": "Toutefois, non pas ce que je veux, mais ce que tu veux.",
+     "mot": "Toutefois"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 520,
+     "y": 1040,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "prie_genoux",
+       "visage": "paix",
+       "regarde": "ciel"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "jesus",
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": "jesus",
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "La coupe n'est pas partie. Il est mort.",
+   "registre": "recit",
+   "appui": [
+    "Matthieu 27:50"
+   ],
+   "lieu": "croix",
+   "transition": "fondu",
+   "objets": [
+    {
+     "gen": "croix",
+     "x": 540,
+     "y": 872,
+     "h": 1000,
+     "n": 3,
+     "ecart": 640,
+     "silhouette": true
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "x": 540,
+     "y": 600,
+     "zoom": 1
+    },
+    {
+     "t": "fin",
+     "x": 540,
+     "y": 590,
+     "zoom": 1.1
+    }
+   ]
+  },
+  {
+   "texte": "Mais son Père ne l'avait pas oublié.",
+   "registre": "recit",
+   "appui": [
+    "Actes 2:24"
+   ],
+   "lieu": "tombeau",
+   "transition": "blanc",
+   "objets": [
+    {
+     "gen": "tombeau",
+     "x": 540,
+     "y": 1000,
+     "l": 900,
+     "h": 620,
+     "ouvert": 1,
+     "lumiere": 1
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "x": 540,
+     "y": 640,
+     "zoom": 1
+    },
+    {
+     "t": "fin",
+     "x": 540,
+     "y": 680,
+     "zoom": 1.18
+    }
+   ]
+  },
+  {
+   "texte": "Prier, ce n'est donc pas appuyer sur un bouton. C'est parler à quelqu'un.",
+   "registre": "explication",
+   "appui": [
+    "Philippiens 4:6"
+   ],
+   "lieu": "couloir",
+   "transition": "fondu",
+   "graphiques": [
+    {
+     "type": "compare",
+     "y": 250,
+     "gauche": {
+      "titre": "Un bouton",
+      "texte": "J'appuie, ça marche",
+      "icone": "circle-dot"
+     },
+     "droite": {
+      "titre": "Quelqu'un",
+      "texte": "Je parle, il est là",
+      "icone": "message-circle-heart"
+     },
+     "mot_droite": "parler"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "malik",
+     "x": 490,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "leve_tete",
+       "visage": "doux",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "malik",
+     "plan": "ensemble"
+    },
+    {
+     "t": "fin",
+     "cadre": "malik",
+     "plan": "ensemble"
+    }
+   ]
+  },
+  {
+   "texte": "Quelqu'un qui a pleuré, lui aussi.",
+   "registre": "explication",
+   "appui": [
+    "Jean 11:35"
+   ],
+   "lieu": "couloir",
+   "acteurs": [
+    {
+     "id": "malik",
+     "x": 490,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "leve_tete",
+       "visage": "triste",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      },
+      {
+       "mot": "pleuré",
+       "visage": "soulage"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "malik",
+     "plan": "serre"
+    },
+    {
+     "t": "fin",
+     "cadre": "malik",
+     "plan": "serre"
+    }
+   ]
+  },
+  {
+   "texte": "Et voici sa promesse : « Et la paix de Dieu, qui surpasse toute intelligence, gardera vos cœurs et vos pensées en Jésus-Christ. »",
+   "registre": "aujourdhui",
+   "lieu": "hopital",
+   "cite": [
+    {
+     "ref": "Philippiens 4:7"
+    }
+   ],
+   "graphiques": [
+    {
+     "type": "citation",
+     "entete": "LA BIBLE PROMET",
+     "ref": "Philippiens 4:7",
+     "texte": "Et la paix de Dieu, qui surpasse toute intelligence, gardera vos cœurs et vos pensées en Jésus-Christ.",
+     "mot": "paix"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "malik",
+     "x": 325,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "doux",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      }
+     ]
+    },
+    {
+     "id": "mere",
+     "x": 742,
+     "y": 962,
+     "sens": 1,
+     "dy": -122,
+     "echelle": 0.98,
+     "ombre": false,
+     "hors_champ_ok": true,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "allonge",
+       "visage": "yeux_fermes"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "malik",
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": "malik",
+     "plan": "moyen"
+    }
+   ],
+   "transition": "fondu",
+   "objets": [
+    {
+     "gen": "objet",
+     "type": "lit_hopital",
+     "partie": "couverture",
+     "x": 520,
+     "y": 960,
+     "z_ordre": 964,
+     "ombre_sol": false
+    }
+   ]
+  },
+  {
+   "texte": "Pas toujours la réponse que tu veux. Mais jamais seul.",
+   "registre": "aujourdhui",
+   "lieu": "hopital",
+   "acteurs": [
+    {
+     "id": "malik",
+     "x": 325,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "triste",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      },
+      {
+       "mot": "jamais",
+       "pose": "leve_tete",
+       "visage": "soulage",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      }
+     ]
+    },
+    {
+     "id": "mere",
+     "x": 742,
+     "y": 962,
+     "sens": 1,
+     "dy": -122,
+     "echelle": 0.98,
+     "ombre": false,
+     "hors_champ_ok": true,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "allonge",
+       "visage": "yeux_fermes"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "malik",
+     "plan": "americain"
+    },
+    {
+     "t": "fin",
+     "cadre": "malik",
+     "plan": "americain"
+    }
+   ],
+   "objets": [
+    {
+     "gen": "objet",
+     "type": "lit_hopital",
+     "partie": "couverture",
+     "x": 520,
+     "y": 960,
+     "z_ordre": 964,
+     "ombre_sol": false
+    }
+   ]
+  },
+  {
+   "texte": "Tu peux tout lui dire. Même ta colère.",
+   "registre": "invitation",
+   "lieu": "hopital",
+   "acteurs": [
+    {
+     "id": "malik",
+     "x": 325,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "leve_tete",
+       "visage": "doux",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      }
+     ]
+    },
+    {
+     "id": "mere",
+     "x": 742,
+     "y": 962,
+     "sens": 1,
+     "dy": -122,
+     "echelle": 0.98,
+     "ombre": false,
+     "hors_champ_ok": true,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "allonge",
+       "visage": "yeux_fermes"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "malik",
+     "plan": "serre"
+    },
+    {
+     "t": "fin",
+     "cadre": "malik",
+     "plan": "serre"
+    }
+   ],
+   "objets": [
+    {
+     "gen": "objet",
+     "type": "lit_hopital",
+     "partie": "couverture",
+     "x": 520,
+     "y": 960,
+     "z_ordre": 964,
+     "ombre_sol": false
+    }
+   ]
+  },
+  {
+   "texte": "“Jésus, je ne comprends pas. Reste là.”",
+   "registre": "invitation",
+   "lieu": "hopital",
+   "acteurs": [
+    {
+     "id": "malik",
+     "x": 325,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "prie",
+       "visage": "paix",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      }
+     ]
+    },
+    {
+     "id": "mere",
+     "x": 742,
+     "y": 962,
+     "sens": 1,
+     "dy": -122,
+     "echelle": 0.98,
+     "ombre": false,
+     "hors_champ_ok": true,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "allonge",
+       "visage": "yeux_fermes"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "malik",
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": "malik",
+     "plan": "serre"
+    }
+   ],
+   "objets": [
+    {
+     "gen": "objet",
+     "type": "lit_hopital",
+     "partie": "couverture",
+     "x": 520,
+     "y": 960,
+     "z_ordre": 964,
+     "ombre_sol": false
+    }
+   ]
+  },
+  {
+   "duree": 3.6,
+   "fin": true,
+   "lieu": "hopital",
+   "graphiques": [
+    {
+     "type": "fin",
+     "ligne": "Matthieu 26:36-46",
+     "texte": "Jamais seul.",
+     "sous": "Lis toute l'histoire",
+     "t": 0
+    }
+   ]
+  }
+ ],
+ "livrables": {
+  "numero": 8,
+  "description": "Tu as prié, et rien n'a changé. Même Jésus a prié une nuit comme ça. Ce que la Bible promet vraiment. Matthieu 26.",
+  "hashtag": "#priere",
+  "situation": "prier sans voir de réponse (une mère malade)",
+  "invitation": "prière"
+ }
+}

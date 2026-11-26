@@ -1,0 +1,13 @@
+[
+ {"svg":"<rect width='1600' height='900' fill='#cdbb94'/>"},
+ {"gen":"animal","espece":"porc","x":200,"y":300,"taille":220,"seed":3},
+ {"gen":"animal","espece":"porc","x":560,"y":300,"taille":220,"pose":"broute","sens":-1,"seed":4},
+ {"gen":"animal","espece":"mouton","x":900,"y":300,"taille":200,"seed":5},
+ {"gen":"animal","espece":"agneau","x":1200,"y":300,"taille":150,"seed":6},
+ {"gen":"animal","espece":"chevre","x":1450,"y":300,"taille":170,"seed":7,"sens":-1},
+ {"gen":"animal","espece":"ane","x":200,"y":750,"taille":260,"seed":8},
+ {"gen":"animal","espece":"chien","x":540,"y":750,"taille":200,"seed":9},
+ {"gen":"animal","espece":"boeuf","x":850,"y":750,"taille":280,"seed":10},
+ {"gen":"animal","espece":"chameau","x":1250,"y":750,"taille":300,"seed":11,"sens":-1},
+ {"gen":"animal","espece":"colombe","x":1500,"y":500,"taille":90}
+]

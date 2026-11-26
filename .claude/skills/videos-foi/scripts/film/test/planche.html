@@ -1,0 +1,19 @@
+<!doctype html><html><head><meta charset="utf-8"><style>body{margin:0;background:#d9cfbf;font-family:sans-serif}</style>
+<script src="../web/base.js"></script><script src="../web/rig.js"></script><script src="../web/formes.js"></script><script src="../web/mains.js"></script><script src="../web/habits.js"></script><script src="../web/tete.js"></script><script src="../web/perso.js"></script></head>
+<body><svg id="s" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+window.dessinerPlanche = function(cas, cols, w, h){
+  const s=document.getElementById('s'); const rows=Math.ceil(cas.length/cols);
+  s.setAttribute('width', cols*w); s.setAttribute('height', rows*h);
+  let out='<defs><filter id="flou6" x="-50%" y="-200%" width="200%" height="500%"><feGaussianBlur stdDeviation="6"/></filter><radialGradient id="gloire"><stop offset="0" stop-color="#fff6dc" stop-opacity=".95"/><stop offset="1" stop-color="#ffe7a8" stop-opacity="0"/></radialGradient></defs>';
+  cas.forEach((c,i)=>{
+    const x=(i%cols)*w+w/2, y=Math.floor(i/cols)*h+h-60 + (c.decale_y||0);
+    let r;
+    try { r=PERSO.poser(c.desc, c.pose, Object.assign({x, y, echelle:c.echelle||0.8}, c.opts||{})); }
+    catch(e){ out+=`<text x="${x-w/2+10}" y="${y-200}" fill="red" font-size="14">${e.message}</text>`; return; }
+    const cx0=(i%cols)*w, cy0=Math.floor(i/cols)*h;
+    out+=`<defs>${r.defs}<clipPath id="case${i}"><rect x="${cx0}" y="${cy0}" width="${w}" height="${h}"/></clipPath></defs>${c.cadre?`<g clip-path="url(#case${i})">`:''}${r.svg}${c.cadre?'</g>':''}<text x="${x}" y="${y+40}" text-anchor="middle" font-size="18" fill="#222">${c.titre||''}</text>`;
+  });
+  s.innerHTML=out;
+};
+</script></body></html>

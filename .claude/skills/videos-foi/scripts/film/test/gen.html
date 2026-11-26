@@ -1,0 +1,11 @@
+<!doctype html><html><head><meta charset="utf-8"><style>body{margin:0;background:#d9cfbf}</style>
+<script src="../web/base.js"></script><script src="../web/rig.js"></script><script src="../web/formes.js"></script><script src="../web/mains.js"></script><script src="../web/habits.js"></script><script src="../web/tete.js"></script><script src="../web/perso.js"></script><script src="../web/monde.js"></script><script src="../web/lieux.js"></script><script src="../web/sols.js"></script><script src="../web/interieur.js"></script><script src="../web/nature.js"></script><script src="../web/animaux.js"></script><script src="../web/ouvrages.js"></script><script src="../web/decors.js"></script></head>
+<body><svg id="s" xmlns="http://www.w3.org/2000/svg"></svg>
+<script>
+window.dessiner = function(items, w, h){
+  const s=document.getElementById('s'); s.setAttribute('width', w); s.setAttribute('height', h);
+  let out='<defs>'+[2,4,6,10,18,30].map(k=>`<filter id="flou${k}" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="${k}"/></filter>`).join('')+'<radialGradient id="gloire"><stop offset="0" stop-color="#fff6dc" stop-opacity=".95"/><stop offset="1" stop-color="#ffe7a8" stop-opacity="0"/></radialGradient></defs>';
+  items.forEach((it,i)=>{ try { if (it.perso) { const r=PERSO.poser(it.perso, it.pose||'debout', {x:it.x, y:it.y, echelle:it.echelle||1, sens:it.sens||1, t:it.t||1, action:it.action||{}}); out += `<defs>${r.defs}</defs>`+r.svg; return; } out += it.svg ? it.svg : MONDE.GEN[it.gen](it, 'g'+i, it.t||1); } catch(e){ out+=`<text x="20" y="${40+i*30}" fill="red" font-size="24">${it.gen}: ${e.message}</text>`; } });
+  s.innerHTML=out;
+};
+</script></body></html>

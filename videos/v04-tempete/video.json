@@ -1,0 +1,1830 @@
+{
+ "titre": "Quand la tempête est dans ta tête",
+ "type_video": "recit",
+ "passage": "Marc 4:35-41",
+ "pont": {
+  "ref": "1 Pierre 5:7"
+ },
+ "levier": "identification",
+ "mots_rouges": [
+  "Jésus"
+ ],
+ "style": {
+  "format": "lumiere",
+  "grain": 0.05,
+  "musique": {
+   "tonalite": "D",
+   "tempo": 66,
+   "humeur": "intime"
+  }
+ },
+ "mots_par_seconde": 3.0,
+ "personnages": {
+  "lea": {
+   "silhouette": "femme",
+   "age": "jeune",
+   "traits": "simple",
+   "tete": 1.3,
+   "peau": "#8a5a3c",
+   "cheveux": {
+    "style": "long",
+    "couleur": "#1a120d"
+   },
+   "haut": {
+    "couleur": "#6b7898",
+    "col": "rond",
+    "manches": "longues",
+    "longueur": "hanches"
+   },
+   "bas": {
+    "type": "pantalon",
+    "couleur": "#2e3140"
+   },
+   "chaussures": {
+    "type": "pieds_nus"
+   },
+   "tient": "telephone"
+  },
+  "jesus": {
+   "silhouette": "homme",
+   "traits": "simple",
+   "tete": 1.2,
+   "peau": "#ad7650",
+   "cheveux": {
+    "style": "long",
+    "couleur": "#24180f"
+   },
+   "barbe": {
+    "style": "courte",
+    "couleur": "#24180f"
+   },
+   "haut": {
+    "couleur": "#efe6d6",
+    "longueur": "chevilles",
+    "col": "tunique"
+   },
+   "bas": null,
+   "manteau": {
+    "type": "drape",
+    "couleur": "#9b2a26"
+   },
+   "chaussures": {
+    "type": "sandales",
+    "couleur": "#5a3f28"
+   }
+  },
+  "disciple_a": {
+   "silhouette": "homme",
+   "age": "adulte",
+   "traits": "simple",
+   "tete": 1.2,
+   "peau": "#9c6644",
+   "cheveux": {
+    "style": "court",
+    "couleur": "#1c130d"
+   },
+   "barbe": {
+    "style": "courte",
+    "couleur": "#1c130d"
+   },
+   "haut": {
+    "couleur": "#b59a72",
+    "longueur": "chevilles",
+    "col": "tunique"
+   },
+   "bas": null,
+   "ceinture": "#5a3f28",
+   "chaussures": {
+    "type": "sandales",
+    "couleur": "#5a3f28"
+   }
+  },
+  "disciple_b": {
+   "silhouette": "homme",
+   "age": "jeune",
+   "traits": "simple",
+   "tete": 1.2,
+   "peau": "#c08a62",
+   "cheveux": {
+    "style": "mi_long",
+    "couleur": "#2b1d14"
+   },
+   "haut": {
+    "couleur": "#6f8fa8",
+    "longueur": "chevilles",
+    "col": "tunique"
+   },
+   "bas": null,
+   "chaussures": {
+    "type": "pieds_nus"
+   }
+  }
+ },
+ "lieux": {
+  "chambre": {
+   "heure": "nuit",
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": 1
+   },
+   "couches": [
+    {
+     "gen": "piece",
+     "fond": [
+      -180,
+      160,
+      1260,
+      840
+     ],
+     "mur": {
+      "couleur": "#34405e",
+      "matiere": "enduit"
+     },
+     "sol": {
+      "couleur": "#2a2a3c",
+      "matiere": "parquet"
+     },
+     "plafond": "#2c2f48",
+     "profondeur": 0.95,
+     "fenetres": [
+      {
+       "x": 130,
+       "y": 545,
+       "l": 300,
+       "h": 205,
+       "ciel": "nuit",
+       "lune": true
+      }
+     ]
+    },
+    {
+     "gen": "meuble",
+     "type": "commode",
+     "x": 820,
+     "y": 930,
+     "l": 260,
+     "h": 230,
+     "prof": 140,
+     "couleur": "#3a3044",
+     "profondeur": 0.97
+    },
+    {
+     "gen": "meuble",
+     "type": "lit",
+     "x": 120,
+     "y": 1035,
+     "l": 720,
+     "h": 180,
+     "prof": 300,
+     "couleur": "#4a3a50",
+     "couleur2": "#7a6aa0",
+     "drap": "#e7e2d8",
+     "y_sol": 1035
+    }
+   ],
+   "objets": [
+    {
+     "gen": "objet",
+     "type": "horloge",
+     "x": 760,
+     "y": 615,
+     "y_sol": 840,
+     "l": 190,
+     "heure": 2,
+     "minute": 10
+    },
+    {
+     "gen": "objet",
+     "type": "cadre",
+     "x": 520,
+     "y": 660,
+     "y_sol": 840,
+     "l": 240,
+     "h": 190
+    },
+    {
+     "gen": "objet",
+     "type": "tapis",
+     "x": 250,
+     "y": 1118,
+     "l": 560,
+     "prof": 170,
+     "couleur": "#4a3a5a"
+    }
+   ]
+  },
+  "lac_soir": {
+   "heure": "soir",
+   "sol": {
+    "horizon": 640,
+    "y_ref": 1060,
+    "echelle": 1
+   },
+   "lumiere": {
+    "cote": 1
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "profondeur": 0
+    },
+    {
+     "gen": "relief",
+     "y": 640,
+     "amplitude": 150,
+     "couleur": "#7a6a78",
+     "profondeur": 0.12,
+     "seed": 3
+    },
+    {
+     "gen": "relief",
+     "y": 650,
+     "amplitude": 70,
+     "couleur": "#5e5468",
+     "profondeur": 0.25,
+     "seed": 8
+    },
+    {
+     "gen": "eau",
+     "y": 640,
+     "agitation": 0.2,
+     "couleur": "#3f6f86",
+     "astre_x": 850,
+     "astre_couleur": "#ffd9a0"
+    },
+    {
+     "gen": "barque",
+     "id": "barque",
+     "x": 540,
+     "y": 985,
+     "l": 660,
+     "sens": 1,
+     "voile": true,
+     "tangue": 2.5,
+     "eau": "#2f5f76"
+    }
+   ]
+  },
+  "lac_tempete": {
+   "heure": "nuit",
+   "sol": {
+    "horizon": 640,
+    "y_ref": 1060,
+    "echelle": 1
+   },
+   "lumiere": {
+    "cote": -1,
+    "couleur": "#b8c8e8"
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "haut": "#070b18",
+     "bas": "#26304a",
+     "profondeur": 0
+    },
+    {
+     "gen": "nuages",
+     "y": 260,
+     "n": 9,
+     "couleur": "#2a3148",
+     "opacite": 0.95,
+     "vent": 40,
+     "hauteur": 300,
+     "profondeur": 0.05
+    },
+    {
+     "gen": "relief",
+     "y": 640,
+     "amplitude": 120,
+     "couleur": "#1c2030",
+     "profondeur": 0.12,
+     "seed": 3
+    },
+    {
+     "gen": "eau",
+     "y": 640,
+     "agitation": 0.95,
+     "couleur": "#2a4f63"
+    },
+    {
+     "gen": "barque",
+     "id": "barque",
+     "x": 540,
+     "y": 985,
+     "l": 660,
+     "sens": 1,
+     "voile": false,
+     "tangue": 9,
+     "eau": "#2f5f76"
+    },
+    {
+     "gen": "pluie",
+     "n": 320,
+     "vent": 0.35,
+     "opacite": 0.55,
+     "devant": true,
+     "profondeur": 1.2
+    }
+   ]
+  },
+  "lac_calme": {
+   "heure": "or",
+   "sol": {
+    "horizon": 640,
+    "y_ref": 1060,
+    "echelle": 1
+   },
+   "lumiere": {
+    "cote": 1
+   },
+   "panneau": {
+    "fond": "#f6cf7d",
+    "fond2": "#e39a42",
+    "texte": "#2b1c0e",
+    "gris": "#a8742f",
+    "actif": "#fffaf0",
+    "lueur": "#fff3c4"
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "profondeur": 0
+    },
+    {
+     "gen": "relief",
+     "y": 640,
+     "amplitude": 150,
+     "couleur": "#c9a97a",
+     "profondeur": 0.12,
+     "seed": 3
+    },
+    {
+     "gen": "eau",
+     "y": 640,
+     "agitation": 0.04,
+     "couleur": "#6f9fb0",
+     "astre_x": 850,
+     "astre_couleur": "#fff3c4"
+    },
+    {
+     "gen": "rayons",
+     "source": [
+      850,
+      560
+     ],
+     "angle": 210,
+     "n": 8,
+     "ecart": 12,
+     "largeur": 4,
+     "couleur": "#fff6dc",
+     "opacite": 0.35,
+     "profondeur": 0.05
+    },
+    {
+     "gen": "barque",
+     "id": "barque",
+     "x": 540,
+     "y": 985,
+     "l": 660,
+     "sens": 1,
+     "voile": true,
+     "tangue": 1,
+     "eau": "#2f5f76"
+    }
+   ]
+  }
+ },
+ "plans": [
+  {
+   "texte": "Il est tard.",
+   "registre": "aujourdhui",
+   "lieu": "chambre",
+   "objets": [
+    {
+     "gen": "lumiere",
+     "pos": [
+      540,
+      840
+     ],
+     "rayon": 300,
+     "couleur": "#9cc4ff",
+     "intensite": 0.2,
+     "y_sol": 1100
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "lea",
+     "x": 520,
+     "y": 1080,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "telephone",
+       "visage": "fatigue",
+       "vue": 10,
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80,
+        "cou": 22
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "lea",
+     "plan": "americain"
+    },
+    {
+     "t": "fin",
+     "cadre": "lea",
+     "plan": "serre"
+    }
+   ]
+  },
+  {
+   "texte": "Tout est calme… sauf dans ta tête.",
+   "registre": "aujourdhui",
+   "lieu": "chambre",
+   "objets": [
+    {
+     "gen": "lumiere",
+     "pos": [
+      540,
+      840
+     ],
+     "rayon": 300,
+     "couleur": "#9cc4ff",
+     "intensite": 0.2,
+     "y_sol": 1100
+    }
+   ],
+   "graphiques": [
+    {
+     "type": "ondes",
+     "sur": "lea",
+     "mot": "tête"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "lea",
+     "x": 520,
+     "y": 1080,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "telephone",
+       "visage": "inquiet",
+       "vue": 10,
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80,
+        "cou": 22
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "lea",
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": "lea",
+     "plan": "americain"
+    }
+   ]
+  },
+  {
+   "texte": "Ton cœur cogne.",
+   "registre": "aujourdhui",
+   "lieu": "chambre",
+   "acteurs": [
+    {
+     "id": "lea",
+     "x": 520,
+     "y": 1080,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "telephone",
+       "visage": "peur",
+       "vue": 10,
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80,
+        "cou": 22
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "lea",
+     "plan": "serre"
+    },
+    {
+     "t": "fin",
+     "cadre": "lea",
+     "plan": "serre"
+    }
+   ]
+  },
+  {
+   "texte": "Et si ça ne s'arrêtait jamais ?",
+   "registre": "aujourdhui",
+   "lieu": "chambre",
+   "graphiques": [
+    {
+     "type": "pensee",
+     "sur": "lea",
+     "icone": "cloud-rain",
+     "mot": "jamais"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "lea",
+     "x": 520,
+     "y": 1080,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "mains_visage",
+       "visage": "triste",
+       "vue": 10,
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80,
+        "cou": 22
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "lea",
+     "plan": "serre"
+    },
+    {
+     "t": "fin",
+     "cadre": "lea",
+     "plan": "serre"
+    }
+   ]
+  },
+  {
+   "texte": "Un soir, Jésus dit à ses amis : « Passons à l'autre bord. »",
+   "registre": "recit",
+   "appui": [
+    "Marc 4:35"
+   ],
+   "cite": [
+    {
+     "ref": "Marc 4:35",
+     "qui": "jesus"
+    }
+   ],
+   "lieu": "lac_soir",
+   "graphiques": [
+    {
+     "type": "badge",
+     "texte": "Une histoire vraie · Marc 4",
+     "t": 0.1,
+     "fin": 2.0
+    },
+    {
+     "type": "citation",
+     "entete": "JÉSUS DIT",
+     "ref": "Marc 4:35",
+     "texte": "Passons à l'autre bord.",
+     "mot": "Passons"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 390,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "doux",
+       "pose": "debout",
+       "regarde": "disciple_a"
+      }
+     ]
+    },
+    {
+     "id": "disciple_a",
+     "x": 560,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "neutre",
+       "pose": "debout",
+       "regarde": "jesus"
+      }
+     ]
+    },
+    {
+     "id": "disciple_b",
+     "x": 700,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "neutre",
+       "pose": "debout",
+       "regarde": "jesus"
+      }
+     ]
+    }
+   ],
+   "transition": "fondu",
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "jesus",
+      "disciple_a",
+      "disciple_b"
+     ],
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "jesus",
+      "disciple_a",
+      "disciple_b"
+     ],
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "C'est le lac de Galilée.",
+   "registre": "explication",
+   "appui": [
+    "Marc 4:37"
+   ],
+   "lieu": "lac_soir",
+   "graphiques": [
+    {
+     "type": "carte",
+     "cadre": "lac",
+     "titre": "Le lac de Galilée",
+     "lieux": [
+      "Capharnaüm",
+      "Magdala",
+      "Tibériade"
+     ]
+    }
+   ]
+  },
+  {
+   "texte": "Entouré de collines, le vent peut y tomber d'un coup.",
+   "registre": "explication",
+   "appui": [
+    "Marc 4:37"
+   ],
+   "lieu": "lac_soir",
+   "couches": [
+    {
+     "gen": "nuages",
+     "y": 280,
+     "n": 6,
+     "couleur": "#3a3a58",
+     "opacite": 0.8,
+     "vent": 60,
+     "hauteur": 260,
+     "profondeur": 0.05,
+     "anim": {
+      "cles": [
+       {
+        "t": 0,
+        "x": -300
+       },
+       {
+        "t": "fin",
+        "x": 200
+       }
+      ]
+     }
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 390,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "doux",
+       "pose": "debout",
+       "regarde": "disciple_a"
+      }
+     ]
+    },
+    {
+     "id": "disciple_a",
+     "x": 560,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "neutre",
+       "pose": "debout",
+       "regarde": "jesus"
+      }
+     ]
+    },
+    {
+     "id": "disciple_b",
+     "x": 700,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "neutre",
+       "pose": "debout",
+       "regarde": "jesus"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "jesus",
+      "disciple_a",
+      "disciple_b"
+     ],
+     "plan": "large"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "jesus",
+      "disciple_a",
+      "disciple_b"
+     ],
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "Soudain, une violente tempête éclate.",
+   "registre": "recit",
+   "appui": [
+    "Marc 4:37"
+   ],
+   "lieu": "lac_tempete",
+   "couches": [
+    {
+     "gen": "eclair",
+     "x": 760,
+     "instants": [
+      {
+       "mot": "éclate"
+      }
+     ],
+     "profondeur": 0.1
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 390,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "assis_sol",
+       "visage": "yeux_fermes",
+       "angles": {
+        "cou": 30,
+        "tete_cote": 14
+       }
+      }
+     ]
+    },
+    {
+     "id": "disciple_a",
+     "x": 560,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "inquiet",
+       "regarde": "ciel"
+      },
+      {
+       "mot": "éclate",
+       "pose": "peur",
+       "visage": "peur"
+      }
+     ]
+    },
+    {
+     "id": "disciple_b",
+     "x": 700,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "rame",
+       "visage": "inquiet"
+      },
+      {
+       "mot": "éclate",
+       "visage": "peur"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "jesus",
+      "disciple_a",
+      "disciple_b"
+     ],
+     "plan": "large"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "jesus",
+      "disciple_a",
+      "disciple_b"
+     ],
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "Les vagues entrent dans la barque.",
+   "registre": "recit",
+   "appui": [
+    "Marc 4:37"
+   ],
+   "lieu": "lac_tempete",
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 390,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "assis_sol",
+       "visage": "yeux_fermes",
+       "angles": {
+        "cou": 30,
+        "tete_cote": 14
+       }
+      }
+     ]
+    },
+    {
+     "id": "disciple_a",
+     "x": 560,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "peur",
+       "visage": "peur",
+       "regarde": "sol"
+      }
+     ]
+    },
+    {
+     "id": "disciple_b",
+     "x": 700,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "rame",
+       "visage": "peur"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "jesus",
+      "disciple_a",
+      "disciple_b"
+     ],
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "jesus",
+      "disciple_a",
+      "disciple_b"
+     ],
+     "plan": "americain"
+    }
+   ]
+  },
+  {
+   "texte": "Et Jésus… dort.",
+   "registre": "recit",
+   "appui": [
+    "Marc 4:38"
+   ],
+   "lieu": "lac_tempete",
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 390,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "assis_sol",
+       "visage": "yeux_fermes",
+       "angles": {
+        "cou": 30,
+        "tete_cote": 14
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "jesus",
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": "jesus",
+     "plan": "americain"
+    }
+   ]
+  },
+  {
+   "texte": "Ils le réveillent : « Maître, ne t'inquiètes-tu pas de ce que nous périssons? »",
+   "registre": "recit",
+   "appui": [
+    "Marc 4:38"
+   ],
+   "cite": [
+    {
+     "ref": "Marc 4:38"
+    }
+   ],
+   "lieu": "lac_tempete",
+   "graphiques": [
+    {
+     "type": "citation",
+     "entete": "ILS CRIENT",
+     "ref": "Marc 4:38",
+     "texte": "Maître, ne t'inquiètes-tu pas de ce que nous périssons?",
+     "mot": "Maître"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 390,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "assis_sol",
+       "visage": "yeux_fermes",
+       "angles": {
+        "cou": 30,
+        "tete_cote": 14
+       }
+      }
+     ]
+    },
+    {
+     "id": "disciple_a",
+     "x": 560,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "peur",
+       "visage": "peur",
+       "regarde": "jesus"
+      },
+      {
+       "mot": "réveillent",
+       "pose": "tend_main_bas",
+       "visage": "peur"
+      }
+     ]
+    },
+    {
+     "id": "disciple_b",
+     "x": 700,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "peur",
+       "visage": "terreur",
+       "regarde": "jesus"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "jesus",
+      "disciple_a",
+      "disciple_b"
+     ],
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "jesus",
+      "disciple_a",
+      "disciple_b"
+     ],
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "Jésus se réveille.",
+   "registre": "recit",
+   "appui": [
+    "Marc 4:39"
+   ],
+   "lieu": "lac_tempete",
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 390,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "assis_sol",
+       "visage": "yeux_fermes",
+       "angles": {
+        "cou": 30,
+        "tete_cote": 14
+       }
+      },
+      {
+       "mot": "réveille",
+       "pose": "debout",
+       "visage": "paix",
+       "regarde": "disciple_a"
+      }
+     ]
+    },
+    {
+     "id": "disciple_a",
+     "x": 560,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "peur",
+       "pose": "debout",
+       "regarde": "jesus"
+      }
+     ]
+    },
+    {
+     "id": "disciple_b",
+     "x": 700,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "terreur",
+       "pose": "peur",
+       "regarde": "jesus"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "jesus",
+      "disciple_a",
+      "disciple_b"
+     ],
+     "plan": "large"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "jesus",
+      "disciple_a",
+      "disciple_b"
+     ],
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "Il dit à la mer : « Silence! Tais-toi! »",
+   "registre": "recit",
+   "appui": [
+    "Marc 4:39"
+   ],
+   "cite": [
+    {
+     "ref": "Marc 4:39",
+     "qui": "jesus"
+    }
+   ],
+   "lieu": "lac_tempete",
+   "graphiques": [
+    {
+     "type": "citation",
+     "entete": "JÉSUS DIT",
+     "ref": "Marc 4:39",
+     "texte": "Silence! Tais-toi!",
+     "mot": "Silence"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 390,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "paix"
+      },
+      {
+       "mot": "Silence",
+       "pose": "tend_main",
+       "visage": "determine"
+      }
+     ]
+    },
+    {
+     "id": "disciple_a",
+     "x": 560,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "peur",
+       "pose": "debout",
+       "regarde": "jesus"
+      }
+     ]
+    },
+    {
+     "id": "disciple_b",
+     "x": 700,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "terreur",
+       "pose": "peur",
+       "regarde": "jesus"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "jesus",
+      "disciple_a",
+      "disciple_b"
+     ],
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "jesus",
+      "disciple_a",
+      "disciple_b"
+     ],
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "Le vent tombe. Et tout devient calme.",
+   "registre": "recit",
+   "appui": [
+    "Marc 4:39"
+   ],
+   "lieu": "lac_calme",
+   "transition": "blanc",
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 390,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "paix",
+       "pose": "debout",
+       "regarde": "disciple_a"
+      }
+     ]
+    },
+    {
+     "id": "disciple_a",
+     "x": 560,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "soulage",
+       "pose": "debout",
+       "regarde": "jesus"
+      }
+     ]
+    },
+    {
+     "id": "disciple_b",
+     "x": 700,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "soulage",
+       "pose": "debout",
+       "regarde": "jesus"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "jesus",
+      "disciple_a",
+      "disciple_b"
+     ],
+     "plan": "large"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "jesus",
+      "disciple_a",
+      "disciple_b"
+     ],
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "Jésus n'était pas loin de la tempête.",
+   "registre": "explication",
+   "appui": [
+    "Marc 4:38"
+   ],
+   "lieu": "lac_calme",
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 390,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "paix",
+       "pose": "debout",
+       "regarde": "disciple_a"
+      }
+     ]
+    },
+    {
+     "id": "disciple_a",
+     "x": 560,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "soulage",
+       "pose": "debout",
+       "regarde": "jesus"
+      }
+     ]
+    },
+    {
+     "id": "disciple_b",
+     "x": 700,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "soulage",
+       "pose": "debout",
+       "regarde": "jesus"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "jesus",
+      "disciple_a",
+      "disciple_b"
+     ],
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "jesus",
+      "disciple_a",
+      "disciple_b"
+     ],
+     "plan": "americain"
+    }
+   ]
+  },
+  {
+   "texte": "Il était dans la barque.",
+   "registre": "explication",
+   "appui": [
+    "Marc 4:36"
+   ],
+   "lieu": "lac_calme",
+   "graphiques": [
+    {
+     "type": "texte",
+     "texte": "Il était *dans* la barque.",
+     "y": 380
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 390,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "paix",
+       "pose": "debout",
+       "regarde": "disciple_a"
+      }
+     ]
+    },
+    {
+     "id": "disciple_a",
+     "x": 560,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "soulage",
+       "pose": "debout",
+       "regarde": "jesus"
+      }
+     ]
+    },
+    {
+     "id": "disciple_b",
+     "x": 700,
+     "y": 985,
+     "porte_par": "barque",
+     "coupe_y": 900,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "soulage",
+       "pose": "debout",
+       "regarde": "jesus"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "jesus",
+      "disciple_a",
+      "disciple_b"
+     ],
+     "plan": "ensemble"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "jesus",
+      "disciple_a",
+      "disciple_b"
+     ],
+     "plan": "ensemble"
+    }
+   ]
+  },
+  {
+   "texte": "Ta tempête, ce soir, est peut-être dans ta tête.",
+   "registre": "aujourdhui",
+   "lieu": "chambre",
+   "transition": "fondu",
+   "acteurs": [
+    {
+     "id": "lea",
+     "x": 520,
+     "y": 1080,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "mains_visage",
+       "visage": "inquiet",
+       "vue": 10,
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80,
+        "cou": 22
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "lea",
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": "lea",
+     "plan": "americain"
+    }
+   ]
+  },
+  {
+   "texte": "Lui est dans ta barque.",
+   "registre": "aujourdhui",
+   "lieu": "chambre",
+   "acteurs": [
+    {
+     "id": "lea",
+     "x": 520,
+     "y": 1080,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "mains_visage",
+       "visage": "inquiet",
+       "vue": 10,
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80,
+        "cou": 22
+       }
+      },
+      {
+       "mot": "barque",
+       "pose": "leve_tete",
+       "visage": "soulage",
+       "vue": 10,
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80,
+        "cou": 22
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "lea",
+     "plan": "americain"
+    },
+    {
+     "t": "fin",
+     "cadre": "lea",
+     "plan": "americain"
+    }
+   ]
+  },
+  {
+   "texte": "La Bible te dit : « déchargez-vous sur lui de tous vos soucis, car lui-même prend soin de vous. »",
+   "registre": "aujourdhui",
+   "cite": [
+    {
+     "ref": "1 Pierre 5:7"
+    }
+   ],
+   "lieu": "chambre",
+   "graphiques": [
+    {
+     "type": "citation",
+     "entete": "LA BIBLE DIT",
+     "ref": "1 Pierre 5:7",
+     "texte": "déchargez-vous sur lui de tous vos soucis, car lui-même prend soin de vous.",
+     "mot": "déchargez"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "lea",
+     "x": 520,
+     "y": 1080,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "soulage",
+       "pose": "leve_tete",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80,
+        "cou": 22
+       },
+       "vue": 10
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "lea",
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": "lea",
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "Parle-lui, comme eux, même sans phrases parfaites.",
+   "registre": "invitation",
+   "lieu": "chambre",
+   "acteurs": [
+    {
+     "id": "lea",
+     "x": 520,
+     "y": 1080,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "doux",
+       "pose": "prie",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80,
+        "cou": 22
+       },
+       "vue": 10,
+       "regarde": "camera"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "lea",
+     "plan": "serre"
+    },
+    {
+     "t": "fin",
+     "cadre": "lea",
+     "plan": "serre"
+    }
+   ]
+  },
+  {
+   "texte": "Dis-lui simplement : “Jésus, calme la tempête en moi.”",
+   "registre": "invitation",
+   "lieu": "chambre",
+   "acteurs": [
+    {
+     "id": "lea",
+     "x": 520,
+     "y": 1080,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "paix",
+       "pose": "prie",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80,
+        "cou": 22
+       },
+       "vue": 10,
+       "regarde": "camera"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "lea",
+     "plan": "americain"
+    },
+    {
+     "t": "fin",
+     "cadre": "lea",
+     "plan": "americain"
+    }
+   ]
+  },
+  {
+   "duree": 3.6,
+   "fin": true,
+   "lieu": "chambre",
+   "graphiques": [
+    {
+     "type": "fin",
+     "ligne": "Marc 4:35-41",
+     "texte": "Il est dans ta barque.",
+     "sous": "Lis toute l'histoire",
+     "t": 0
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "contexte": "Lac de Galilée : bassin sous le niveau de la mer entouré de pentes raides ; l'air froid des hauteurs y lève des tempêtes soudaines — Univ. hébraïque de Jérusalem (« Multi-scale drivers of easterly wind storms at the Sea of Galilee », cris.huji.ac.il) ; thattheworldmayknow.com (Sea of Galilee geography), consultés le 24/11/2026"
+ },
+ "livrables": {
+  "numero": 4,
+  "description": "L'angoisse la nuit, le cœur qui cogne… Jésus était dans la barque pendant la tempête. Il est dans la tienne. Marc 4.",
+  "hashtag": "#angoisse",
+  "situation": "angoisse la nuit, les pensées qui tournent",
+  "invitation": "prière"
+ },
+ "dosage": "recit"
+}

@@ -1,0 +1,89 @@
+[
+ {
+  "svg": "<defs><linearGradient id='c0' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#6f8fb8'/><stop offset='1' stop-color='#d8e2ea'/></linearGradient></defs><rect x='0' y='0' width='1080' height='1100' fill='url(#c0)'/><circle cx='840' cy='260' r='46' fill='#fff3d6'/>"
+ },
+ {
+  "gen": "relief",
+  "y": 520,
+  "amplitude": 120,
+  "couleur": "#8a9a86",
+  "seed": 4
+ },
+ {
+  "gen": "eau",
+  "y": 520,
+  "agitation": 0.35,
+  "couleur": "#3d7f94",
+  "t": 1
+ },
+ {
+  "gen": "barque",
+  "x": 540,
+  "y": 820,
+  "l": 620,
+  "sens": 1,
+  "tangue": 0
+ },
+ {
+  "svg": "<defs><linearGradient id='c1080' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#7fb2de'/><stop offset='1' stop-color='#f3e3c2'/></linearGradient></defs><rect x='1080' y='0' width='1080' height='1100' fill='url(#c1080)'/>"
+ },
+ {
+  "svg": "<rect x='1080' y='560' width='1080' height='540' fill='#d4b57e'/>"
+ },
+ {
+  "gen": "puits",
+  "x": 1620,
+  "y": 960,
+  "r": 130
+ },
+ {
+  "svg": "<defs><linearGradient id='c2160' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#f2c69a'/><stop offset='1' stop-color='#fbe7c9'/></linearGradient></defs><rect x='2160' y='0' width='1080' height='1100' fill='url(#c2160)'/><circle cx='2500' cy='300' r='50' fill='#fff3d6'/>"
+ },
+ {
+  "svg": "<rect x='2160' y='620' width='1080' height='480' fill='#c9ac7c'/>"
+ },
+ {
+  "gen": "tombeau",
+  "x": 2700,
+  "y": 980,
+  "l": 760,
+  "h": 520,
+  "ouvert": 1,
+  "lumiere": 1
+ },
+ {
+  "svg": "<defs><linearGradient id='c3240' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#e9a45c'/><stop offset='1' stop-color='#ffe2a8'/></linearGradient></defs><rect x='3240' y='0' width='1080' height='1100' fill='url(#c3240)'/><circle cx='3780' cy='520' r='70' fill='#fff3d6'/>"
+ },
+ {
+  "gen": "relief",
+  "y": 760,
+  "amplitude": 180,
+  "couleur": "#5a4a52",
+  "seed": 2
+ },
+ {
+  "svg": "<rect x='3240' y='740' width='1080' height='360' fill='#4a3c44'/>"
+ },
+ {
+  "gen": "croix",
+  "x": 3780,
+  "y": 700,
+  "h": 300,
+  "n": 3,
+  "ecart": 170,
+  "silhouette": true
+ },
+ {
+  "svg": "<defs><linearGradient id='c4320' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#86b4dc'/><stop offset='1' stop-color='#f2e6cc'/></linearGradient></defs><rect x='4320' y='0' width='1080' height='1100' fill='url(#c4320)'/>"
+ },
+ {
+  "svg": "<rect x='4320' y='820' width='1080' height='280' fill='#d8c39a'/>"
+ },
+ {
+  "gen": "temple",
+  "x": 4860,
+  "y": 980,
+  "l": 900,
+  "h": 600
+ }
+]

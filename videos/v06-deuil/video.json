@@ -1,0 +1,1489 @@
+{
+ "titre": "Quand tu as perdu quelqu'un",
+ "type_video": "recit",
+ "passage": "Jean 11:1-44",
+ "pont": {
+  "ref": "Apocalypse 21:4"
+ },
+ "levier": "identification",
+ "mots_rouges": [
+  "Jésus"
+ ],
+ "style": {
+  "format": "lumiere",
+  "grain": 0.05,
+  "musique": {
+   "tonalite": "F",
+   "tempo": 62,
+   "humeur": "intime"
+  }
+ },
+ "mots_par_seconde": 3.0,
+ "personnages": {
+  "ines": {
+   "silhouette": "femme",
+   "age": "jeune",
+   "traits": "simple",
+   "tete": 1.3,
+   "peau": "#c99470",
+   "cheveux": {
+    "style": "long",
+    "couleur": "#2a1a12"
+   },
+   "haut": {
+    "couleur": "#a8645a",
+    "col": "rond",
+    "manches": "longues",
+    "longueur": "hanches"
+   },
+   "bas": {
+    "type": "pantalon",
+    "couleur": "#3a3a48"
+   },
+   "chaussures": {
+    "type": "baskets",
+    "couleur": "#f2f0ea"
+   }
+  },
+  "jesus": {
+   "silhouette": "homme",
+   "traits": "simple",
+   "tete": 1.2,
+   "peau": "#ad7650",
+   "cheveux": {
+    "style": "long",
+    "couleur": "#24180f"
+   },
+   "barbe": {
+    "style": "courte",
+    "couleur": "#24180f"
+   },
+   "haut": {
+    "couleur": "#efe6d6",
+    "longueur": "chevilles",
+    "col": "tunique"
+   },
+   "bas": null,
+   "manteau": {
+    "type": "drape",
+    "couleur": "#9b2a26"
+   },
+   "chaussures": {
+    "type": "sandales",
+    "couleur": "#5a3f28"
+   }
+  },
+  "marthe": {
+   "silhouette": "femme",
+   "age": "adulte",
+   "traits": "simple",
+   "tete": 1.2,
+   "peau": "#b07a52",
+   "cheveux": {
+    "style": "long",
+    "couleur": "#1c130d"
+   },
+   "coiffe": {
+    "type": "voile",
+    "couleur": "#3d4a6a"
+   },
+   "haut": {
+    "couleur": "#6a7a9a",
+    "longueur": "chevilles",
+    "col": "tunique"
+   },
+   "bas": null,
+   "chaussures": {
+    "type": "sandales",
+    "couleur": "#5a3f28"
+   }
+  },
+  "marie": {
+   "silhouette": "femme",
+   "age": "jeune",
+   "traits": "simple",
+   "tete": 1.2,
+   "peau": "#b88356",
+   "cheveux": {
+    "style": "long",
+    "couleur": "#2a1a12"
+   },
+   "coiffe": {
+    "type": "voile",
+    "couleur": "#d9cbb0"
+   },
+   "haut": {
+    "couleur": "#8a5a6a",
+    "longueur": "chevilles",
+    "col": "tunique"
+   },
+   "bas": null,
+   "chaussures": {
+    "type": "sandales",
+    "couleur": "#5a3f28"
+   }
+  },
+  "lazare": {
+   "silhouette": "homme",
+   "traits": "aucun",
+   "tete": 1.05,
+   "peau": "#d6c9ae",
+   "cheveux": {
+    "style": "chauve",
+    "couleur": "#e9e0cd"
+   },
+   "coiffe": {
+    "type": "voile",
+    "couleur": "#c8b998"
+   },
+   "haut": {
+    "couleur": "#d6c9ae",
+    "longueur": "chevilles",
+    "col": "tunique",
+    "motif": "<path d='M-40,-18 L40,-6 M-40,2 L40,14 M-40,22 L40,34' stroke='#c9bca2' stroke-width='5' fill='none'/>"
+   },
+   "bas": null,
+   "chaussures": {
+    "type": "pieds_nus"
+   },
+   "bandes": "#e9dfc6"
+  }
+ },
+ "lieux": {
+  "salon": {
+   "heure": "soir",
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": 1
+   },
+   "couches": [
+    {
+     "gen": "piece",
+     "fond": [
+      -150,
+      220,
+      1230,
+      860
+     ],
+     "mur": {
+      "couleur": "#7a6a5e",
+      "matiere": "enduit"
+     },
+     "sol": {
+      "couleur": "#5a4636",
+      "matiere": "parquet"
+     },
+     "plafond": "#6a5a50",
+     "profondeur": 0.95,
+     "fenetres": [
+      {
+       "x": 640,
+       "y": 533,
+       "l": 300,
+       "h": 222,
+       "ciel": "#e8a070",
+       "rideaux": "#c9b49a"
+      }
+     ]
+    }
+   ],
+   "objets": [
+    {
+     "gen": "meuble",
+     "type": "canape",
+     "x": 90,
+     "y": 1090,
+     "l": 470,
+     "h": 224,
+     "prof": 150,
+     "couleur": "#5a6a7a",
+     "couleur2": "#7a8a9a"
+    },
+    {
+     "gen": "meuble",
+     "type": "canape",
+     "x": 700,
+     "y": 1010,
+     "l": 250,
+     "h": 224,
+     "prof": 140,
+     "couleur": "#8a5a4a",
+     "couleur2": "#b88a6a"
+    },
+    {
+     "gen": "objet",
+     "type": "cadre",
+     "x": 250,
+     "y": 690,
+     "y_sol": 860,
+     "l": 250,
+     "h": 200
+    },
+    {
+     "gen": "objet",
+     "type": "lampe_pied",
+     "x": 990,
+     "y": 940
+    }
+   ]
+  },
+  "route": {
+   "heure": "soir",
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": 1
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "profondeur": 0
+    },
+    {
+     "gen": "relief",
+     "y": 690,
+     "amplitude": 140,
+     "couleur": "#a08a7a",
+     "profondeur": 0.12,
+     "seed": 3
+    },
+    {
+     "gen": "ville",
+     "style": "antique",
+     "rangees": [
+      {
+       "y": 700,
+       "h": [
+        60,
+        120
+       ],
+       "echelle": 0.34
+      }
+     ],
+     "de": 600,
+     "a": 1100,
+     "seed": 6,
+     "profondeur": 0.4
+    },
+    {
+     "gen": "sol",
+     "y": 700,
+     "matiere": "terre",
+     "couleur": "#b89a74",
+     "profondeur": 1
+    },
+    {
+     "gen": "chemin",
+     "de": [
+      560,
+      1900
+     ],
+     "a": [
+      600,
+      705
+     ],
+     "largeur": 420,
+     "couleur": "#cbb08a",
+     "profondeur": 1
+    },
+    {
+     "gen": "arbre",
+     "espece": "olivier",
+     "x": 80,
+     "y": 900,
+     "hauteur": 440,
+     "seed": 2,
+     "profondeur": 1
+    }
+   ]
+  },
+  "maison": {
+   "heure": "soir",
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": 1
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "profondeur": 0
+    },
+    {
+     "gen": "sol",
+     "y": 700,
+     "matiere": "terre",
+     "couleur": "#b89a74",
+     "profondeur": 1
+    },
+    {
+     "gen": "batiment",
+     "x": 260,
+     "y": 880,
+     "l": 760,
+     "h": 470,
+     "style": "antique",
+     "couleur": "#d9c3a0",
+     "porte_x": 0.3,
+     "cote": 0,
+     "profondeur": 1
+    }
+   ],
+   "objets": [
+    {
+     "gen": "foule",
+     "n": 6,
+     "zone": [
+      560,
+      880,
+      1080,
+      930
+     ],
+     "epoque": "antique",
+     "vers": [
+      400,
+      1000
+     ],
+     "poses": [
+      "tete_baissee",
+      "debout"
+     ],
+     "seed": 7
+    }
+   ]
+  },
+  "tombeau": {
+   "heure": "soir",
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": 1
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "profondeur": 0
+    },
+    {
+     "gen": "relief",
+     "y": 690,
+     "amplitude": 110,
+     "couleur": "#9a8468",
+     "profondeur": 0.15,
+     "seed": 5
+    },
+    {
+     "gen": "sol",
+     "y": 700,
+     "matiere": "terre",
+     "couleur": "#b09670",
+     "profondeur": 1
+    },
+    {
+     "gen": "arbre",
+     "espece": "olivier",
+     "x": 60,
+     "y": 880,
+     "hauteur": 420,
+     "seed": 4,
+     "profondeur": 1
+    }
+   ],
+   "objets": [
+    {
+     "gen": "tombeau",
+     "x": 700,
+     "y": 900,
+     "l": 760,
+     "h": 520,
+     "ouvert": 1,
+     "lumiere": 0
+    }
+   ]
+  },
+  "tombeau_or": {
+   "heure": "or",
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": 1
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "profondeur": 0
+    },
+    {
+     "gen": "relief",
+     "y": 690,
+     "amplitude": 110,
+     "couleur": "#9a8468",
+     "profondeur": 0.15,
+     "seed": 5
+    },
+    {
+     "gen": "sol",
+     "y": 700,
+     "matiere": "terre",
+     "couleur": "#b09670",
+     "profondeur": 1
+    },
+    {
+     "gen": "arbre",
+     "espece": "olivier",
+     "x": 60,
+     "y": 880,
+     "hauteur": 420,
+     "seed": 4,
+     "profondeur": 1
+    }
+   ],
+   "objets": [
+    {
+     "gen": "tombeau",
+     "x": 700,
+     "y": 900,
+     "l": 760,
+     "h": 520,
+     "ouvert": 1,
+     "lumiere": 1
+    }
+   ],
+   "panneau": {
+    "fond": "#f6cf7d",
+    "fond2": "#e39a42",
+    "texte": "#2b1c0e",
+    "gris": "#a8742f",
+    "actif": "#fffaf0",
+    "lueur": "#fff3c4"
+   }
+  }
+ },
+ "plans": [
+  {
+   "texte": "Elle est partie.",
+   "registre": "aujourdhui",
+   "lieu": "salon",
+   "acteurs": [
+    {
+     "id": "ines",
+     "x": 300,
+     "y": 1090,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "tete_baissee",
+       "visage": "triste",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80,
+        "cou": 24
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "ines",
+     "plan": "americain"
+    },
+    {
+     "t": "fin",
+     "cadre": "ines",
+     "plan": "serre"
+    }
+   ]
+  },
+  {
+   "texte": "Son fauteuil est vide.",
+   "registre": "aujourdhui",
+   "lieu": "salon",
+   "camera": [
+    {
+     "t": 0,
+     "x": 860,
+     "y": 860,
+     "zoom": 1.6
+    },
+    {
+     "t": "fin",
+     "x": 860,
+     "y": 860,
+     "zoom": 1.75
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "ines",
+     "x": 300,
+     "y": 1090,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "tete_baissee",
+       "visage": "triste",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80,
+        "cou": 10
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "texte": "Et tu te dis : “Dieu, où étais-tu ?”",
+   "registre": "aujourdhui",
+   "lieu": "salon",
+   "graphiques": [
+    {
+     "type": "pensee",
+     "sur": "ines",
+     "icone": "circle-help",
+     "mot": "Dieu"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "ines",
+     "x": 300,
+     "y": 1090,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "mains_visage",
+       "visage": "pleure",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "ines",
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": "ines",
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "Jésus aussi a perdu un ami très cher : Lazare.",
+   "registre": "recit",
+   "appui": [
+    "Jean 11:5",
+    "Jean 11:14"
+   ],
+   "lieu": "route",
+   "transition": "fondu",
+   "graphiques": [
+    {
+     "type": "badge",
+     "texte": "Une histoire vraie · Jean 11",
+     "t": 0.1,
+     "fin": 2.2
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 420,
+     "y": 1060,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "marche",
+       "visage": "triste",
+       "x": 620,
+       "duree": 3.0
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "jesus",
+     "plan": "large"
+    },
+    {
+     "t": "fin",
+     "cadre": "jesus",
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "Quand il arrive à Béthanie, près de Jérusalem, Lazare est au tombeau depuis quatre jours.",
+   "registre": "explication",
+   "appui": [
+    "Jean 11:17-18"
+   ],
+   "lieu": "route",
+   "graphiques": [
+    {
+     "type": "carte",
+     "cadre": [
+      31.62,
+      31.92,
+      35.12,
+      35.56
+     ],
+     "titre": "Béthanie, près de Jérusalem",
+     "lieux": [
+      "Jéricho",
+      {
+       "nom": "Béthanie",
+       "mot": "Béthanie"
+      },
+      {
+       "nom": "Jérusalem",
+       "mot": "Jérusalem"
+      },
+      "Bethléem"
+     ]
+    }
+   ]
+  },
+  {
+   "texte": "Marthe va à sa rencontre : « Seigneur, si tu eusses été ici, mon frère ne serait pas mort. »",
+   "registre": "recit",
+   "appui": [
+    "Jean 11:20-21"
+   ],
+   "cite": [
+    {
+     "ref": "Jean 11:21"
+    }
+   ],
+   "lieu": "maison",
+   "graphiques": [
+    {
+     "type": "citation",
+     "entete": "MARTHE DIT",
+     "ref": "Jean 11:21",
+     "texte": "Seigneur, si tu eusses été ici, mon frère ne serait pas mort.",
+     "mot": "Seigneur"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 330,
+     "y": 1050,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "triste",
+       "pose": "debout",
+       "regarde": "marthe"
+      }
+     ]
+    },
+    {
+     "id": "marthe",
+     "x": 660,
+     "y": 1050,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "pleure",
+       "regarde": "jesus"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "jesus",
+      "marthe"
+     ],
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "jesus",
+      "marthe"
+     ],
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "C'est ta question, à toi aussi.",
+   "registre": "explication",
+   "appui": [
+    "Jean 11:21"
+   ],
+   "lieu": "maison",
+   "acteurs": [
+    {
+     "id": "marthe",
+     "x": 660,
+     "y": 1050,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "pleure",
+       "regarde": "camera"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "marthe",
+     "plan": "serre"
+    },
+    {
+     "t": "fin",
+     "cadre": "marthe",
+     "plan": "visage"
+    }
+   ]
+  },
+  {
+   "texte": "Jésus lui dit : « Je suis la résurrection et la vie. »",
+   "registre": "recit",
+   "appui": [
+    "Jean 11:25"
+   ],
+   "cite": [
+    {
+     "ref": "Jean 11:25",
+     "qui": "jesus"
+    }
+   ],
+   "lieu": "maison",
+   "graphiques": [
+    {
+     "type": "citation",
+     "entete": "JÉSUS DIT",
+     "ref": "Jean 11:25",
+     "texte": "Je suis la résurrection et la vie.",
+     "mot": "résurrection"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 330,
+     "y": 1050,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "tendre",
+       "regarde": "marthe"
+      },
+      {
+       "mot": "résurrection",
+       "pose": "tend_main",
+       "visage": "paix"
+      }
+     ]
+    },
+    {
+     "id": "marthe",
+     "x": 660,
+     "y": 1050,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "pleure",
+       "regarde": "jesus"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "jesus",
+     "plan": "americain"
+    },
+    {
+     "t": "fin",
+     "cadre": "jesus",
+     "plan": "americain"
+    }
+   ]
+  },
+  {
+   "texte": "Puis Marie tombe à ses pieds, en larmes, et lui dit la même phrase.",
+   "registre": "recit",
+   "appui": [
+    "Jean 11:32-33"
+   ],
+   "lieu": "maison",
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 330,
+     "y": 1050,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "triste",
+       "regarde": "marie"
+      }
+     ]
+    },
+    {
+     "id": "marie",
+     "x": 560,
+     "y": 1060,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "pleure"
+      },
+      {
+       "mot": "tombe",
+       "pose": "a_genoux",
+       "visage": "pleure",
+       "transition": 0.7
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "jesus",
+      "marie"
+     ],
+     "plan": "large"
+    },
+    {
+     "mot": "tombe",
+     "cadre": [
+      "jesus",
+      "marie"
+     ],
+     "plan": "large"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "jesus",
+      "marie"
+     ],
+     "plan": "large"
+    }
+   ]
+  },
+  {
+   "texte": "Et la Bible dit : « Jésus pleura. »",
+   "registre": "recit",
+   "appui": [
+    "Jean 11:35"
+   ],
+   "cite": [
+    {
+     "ref": "Jean 11:35"
+    }
+   ],
+   "lieu": "maison",
+   "graphiques": [
+    {
+     "type": "verset",
+     "ref": "Jean 11:35",
+     "texte": "Jésus pleura.",
+     "mot": "Jésus",
+     "y": 1180
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 330,
+     "y": 1050,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "triste",
+       "regarde": "marie"
+      },
+      {
+       "mot": "pleura",
+       "visage": "pleure",
+       "regarde": "sol"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "jesus",
+     "plan": "americain"
+    },
+    {
+     "t": "fin",
+     "cadre": "jesus",
+     "plan": "serre"
+    }
+   ]
+  },
+  {
+   "texte": "Il savait qu'il allait le relever. Et pourtant, il pleure avec elles.",
+   "registre": "explication",
+   "appui": [
+    "Jean 11:35"
+   ],
+   "lieu": "maison",
+   "graphiques": [
+    {
+     "type": "definition",
+     "terme": "pleura",
+     "langue": "grec",
+     "original": "ἐδάκρυσεν",
+     "translit": "edákrusen",
+     "sens": "Il versa des larmes — un mot qu'on ne trouve qu'ici dans tout le Nouveau Testament.",
+     "ref": "Jean 11:35",
+     "mot": "pleure"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 330,
+     "y": 1050,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "pleure",
+       "regarde": "marie"
+      }
+     ]
+    },
+    {
+     "id": "marthe",
+     "x": 700,
+     "y": 1050,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "pleure",
+       "regarde": "jesus"
+      }
+     ]
+    },
+    {
+     "id": "marie",
+     "x": 560,
+     "y": 1040,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "a_genoux",
+       "visage": "pleure",
+       "regarde": "jesus"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "jesus",
+      "marthe",
+      "marie"
+     ],
+     "plan": "large"
+    },
+    {
+     "mot": "le",
+     "cadre": [
+      "jesus",
+      "marthe",
+      "marie"
+     ],
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "jesus",
+      "marthe",
+      "marie"
+     ],
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "Devant le tombeau, il crie : « Lazare, sors! »",
+   "registre": "recit",
+   "appui": [
+    "Jean 11:38-43"
+   ],
+   "cite": [
+    {
+     "ref": "Jean 11:43",
+     "qui": "jesus"
+    }
+   ],
+   "lieu": "tombeau_or",
+   "transition": "fondu",
+   "graphiques": [
+    {
+     "type": "citation",
+     "entete": "JÉSUS CRIE",
+     "ref": "Jean 11:43",
+     "texte": "Lazare, sors!",
+     "mot": "Lazare"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 300,
+     "y": 1060,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "determine"
+      },
+      {
+       "mot": "sors",
+       "pose": "tend_main",
+       "visage": "determine"
+      }
+     ]
+    },
+    {
+     "id": "marthe",
+     "x": 860,
+     "y": 1070,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "inquiet",
+       "regarde": "jesus"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "jesus",
+      "marthe"
+     ],
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "jesus",
+      "marthe"
+     ],
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "Et Lazare sort, vivant.",
+   "registre": "recit",
+   "appui": [
+    "Jean 11:44"
+   ],
+   "lieu": "tombeau_or",
+   "acteurs": [
+    {
+     "id": "lazare",
+     "x": 662,
+     "y": 912,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "marche",
+       "x": 640,
+       "y": 985,
+       "duree": 2.0,
+       "vue": 12
+      }
+     ]
+    },
+    {
+     "id": "marthe",
+     "x": 880,
+     "y": 1060,
+     "sens": -1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "surprise",
+       "regarde": "lazare"
+      },
+      {
+       "mot": "vivant",
+       "pose": "mains_levees",
+       "visage": "joie"
+      }
+     ]
+    },
+    {
+     "id": "marie",
+     "x": 400,
+     "y": 1060,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "surprise",
+       "regarde": "lazare"
+      },
+      {
+       "mot": "vivant",
+       "visage": "joie"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": [
+      "marie",
+      "lazare",
+      "marthe"
+     ],
+     "plan": "large"
+    },
+    {
+     "t": "fin",
+     "cadre": [
+      "marie",
+      "lazare",
+      "marthe"
+     ],
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "La mort n'a pas le dernier mot.",
+   "registre": "explication",
+   "appui": [
+    "Jean 11:25"
+   ],
+   "lieu": "tombeau_or",
+   "graphiques": [
+    {
+     "type": "texte",
+     "texte": "La mort n'a pas le *dernier mot*.",
+     "y": 320
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 300,
+     "y": 1060,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "paix",
+       "regarde": "camera"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "jesus",
+     "plan": "ensemble",
+     "dy": -70
+    },
+    {
+     "t": "fin",
+     "cadre": "jesus",
+     "plan": "ensemble",
+     "dy": -70
+    }
+   ]
+  },
+  {
+   "texte": "Ta peine, Jésus ne la regarde pas de loin. Il pleure avec toi.",
+   "registre": "aujourdhui",
+   "lieu": "salon",
+   "transition": "fondu",
+   "acteurs": [
+    {
+     "id": "ines",
+     "x": 300,
+     "y": 1090,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "mains_visage",
+       "visage": "pleure",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      },
+      {
+       "mot": "pleure",
+       "pose": "leve_tete",
+       "visage": "soulage",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "ines",
+     "plan": "serre"
+    },
+    {
+     "t": "fin",
+     "cadre": "ines",
+     "plan": "serre"
+    }
+   ]
+  },
+  {
+   "texte": "Et la Bible promet : « Il essuiera toute larme de leurs yeux, et la mort ne sera plus »",
+   "registre": "aujourdhui",
+   "cite": [
+    {
+     "ref": "Apocalypse 21:4"
+    }
+   ],
+   "lieu": "salon",
+   "graphiques": [
+    {
+     "type": "citation",
+     "entete": "LA BIBLE PROMET",
+     "ref": "Apocalypse 21:4",
+     "texte": "Il essuiera toute larme de leurs yeux, et la mort ne sera plus",
+     "mot": "essuiera"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "ines",
+     "x": 300,
+     "y": 1090,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "soulage",
+       "pose": "leve_tete",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "ines",
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": "ines",
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "Tu peux lui dire ta peine, avec tes mots.",
+   "registre": "invitation",
+   "lieu": "salon",
+   "acteurs": [
+    {
+     "id": "ines",
+     "x": 300,
+     "y": 1090,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "visage": "doux",
+       "pose": "leve_tete",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       },
+       "regarde": "camera"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "ines",
+     "plan": "americain"
+    },
+    {
+     "t": "fin",
+     "cadre": "ines",
+     "plan": "americain"
+    }
+   ]
+  },
+  {
+   "texte": "“Jésus, elle me manque. Reste avec moi.”",
+   "registre": "invitation",
+   "lieu": "salon",
+   "acteurs": [
+    {
+     "id": "ines",
+     "x": 300,
+     "y": 1090,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "prie",
+       "visage": "paix",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "ines",
+     "plan": "serre"
+    },
+    {
+     "t": "fin",
+     "cadre": "ines",
+     "plan": "serre"
+    }
+   ]
+  },
+  {
+   "duree": 3.6,
+   "fin": true,
+   "lieu": "salon",
+   "graphiques": [
+    {
+     "type": "fin",
+     "ligne": "Jean 11:1-44",
+     "texte": "Il pleure avec toi.",
+     "sous": "Lis toute l'histoire",
+     "t": 0
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "edakrusen": "ἐδάκρυσεν (δακρύω, « verser des larmes », Strong G1145) : 1 occurrence dans le Nouveau Testament, Jean 11:35 — biblehub.com/greek/1145.htm et billmounce.com, consultés le 25/11/2026 (le verbe existe ailleurs en grec, dans la Septante)"
+ },
+ "livrables": {
+  "numero": 6,
+  "description": "Elle est partie, et tu te demandes où était Dieu. Jésus savait qu'il allait relever Lazare… et il a pleuré. Jean 11.",
+  "hashtag": "#deuil",
+  "situation": "le deuil d'une grand-mère, le vide, « où était Dieu ? »",
+  "invitation": "prière"
+ },
+ "dosage": "recit"
+}

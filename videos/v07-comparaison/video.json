@@ -1,0 +1,1472 @@
+{
+ "titre": "Quand tu te compares",
+ "type_video": "recit",
+ "dosage": "vie",
+ "passage": "Luc 12:4-7",
+ "pont": {
+  "ref": "Luc 12:7"
+ },
+ "levier": "identification",
+ "mots_rouges": [
+  "Jésus"
+ ],
+ "style": {
+  "format": "lumiere",
+  "grain": 0.05,
+  "musique": {
+   "tonalite": "G",
+   "tempo": 70,
+   "humeur": "intime"
+  }
+ },
+ "mots_par_seconde": 3.0,
+ "personnages": {
+  "camille": {
+   "silhouette": "femme",
+   "age": "ado",
+   "traits": "simple",
+   "tete": 1.25,
+   "peau": "#e8b994",
+   "cheveux": {
+    "style": "mi_long",
+    "couleur": "#7a4a2a"
+   },
+   "haut": {
+    "couleur": "#e0a84a",
+    "col": "capuche"
+   },
+   "bas": {
+    "type": "pantalon",
+    "couleur": "#3a4a6a"
+   },
+   "chaussures": {
+    "type": "baskets",
+    "couleur": "#f2f0ea"
+   },
+   "tient": "telephone"
+  },
+  "jesus": {
+   "silhouette": "homme",
+   "traits": "simple",
+   "tete": 1.2,
+   "peau": "#ad7650",
+   "cheveux": {
+    "style": "long",
+    "couleur": "#24180f"
+   },
+   "barbe": {
+    "style": "courte",
+    "couleur": "#24180f"
+   },
+   "haut": {
+    "couleur": "#efe6d6",
+    "longueur": "chevilles",
+    "col": "tunique"
+   },
+   "bas": null,
+   "manteau": {
+    "type": "drape",
+    "couleur": "#9b2a26"
+   },
+   "chaussures": {
+    "type": "sandales",
+    "couleur": "#5a3f28"
+   }
+  }
+ },
+ "lieux": {
+  "chambre": {
+   "heure": "aube",
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": 1
+   },
+   "couches": [
+    {
+     "gen": "piece",
+     "fond": [
+      -150,
+      220,
+      1230,
+      860
+     ],
+     "mur": {
+      "couleur": "#b7a2a8",
+      "matiere": "enduit"
+     },
+     "sol": {
+      "couleur": "#8a6f5e",
+      "matiere": "parquet"
+     },
+     "plafond": "#cdbfae",
+     "profondeur": 0.95,
+     "fenetres": [
+      {
+       "x": 700,
+       "y": 533,
+       "l": 300,
+       "h": 222,
+       "ciel": "aube",
+       "rideaux": "#d9b8a8"
+      }
+     ]
+    }
+   ],
+   "objets": [
+    {
+     "gen": "objet",
+     "type": "cadre",
+     "x": 300,
+     "y": 690,
+     "y_sol": 860,
+     "l": 210,
+     "h": 250
+    },
+    {
+     "gen": "meuble",
+     "type": "lit",
+     "x": 140,
+     "y": 1085,
+     "l": 720,
+     "h": 178,
+     "prof": 300,
+     "couleur": "#8a6a52",
+     "couleur2": "#b5707a",
+     "drap": "#f2ebe2"
+    },
+    {
+     "gen": "objet",
+     "type": "tapis",
+     "x": 250,
+     "y": 1150,
+     "l": 600,
+     "prof": 180,
+     "couleur": "#a8666a"
+    },
+    {
+     "gen": "meuble",
+     "type": "etagere",
+     "x": -60,
+     "y": 905,
+     "l": 230,
+     "h": 500,
+     "prof": 90,
+     "couleur": "#8a6a52"
+    }
+   ]
+  },
+  "salle_de_bain": {
+   "heure": "matin",
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": -1
+   },
+   "couches": [
+    {
+     "gen": "piece",
+     "fond": [
+      -150,
+      220,
+      1230,
+      860
+     ],
+     "mur": {
+      "couleur": "#a9c0c4",
+      "matiere": "enduit"
+     },
+     "sol": {
+      "couleur": "#c9c2b6",
+      "matiere": "carrelage"
+     },
+     "plafond": "#cdbfae",
+     "profondeur": 0.95
+    }
+   ],
+   "objets": [
+    {
+     "gen": "objet",
+     "type": "miroir",
+     "x": 560,
+     "y": 745,
+     "y_sol": 860,
+     "l": 400,
+     "h": 400
+    },
+    {
+     "gen": "objet",
+     "type": "lavabo",
+     "x": 590,
+     "y": 960
+    },
+    {
+     "gen": "objet",
+     "type": "plante",
+     "x": 900,
+     "y": 950,
+     "h": 260,
+     "l": 140
+    }
+   ]
+  },
+  "couloir": {
+   "heure": "matin",
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": 1
+   },
+   "couches": [
+    {
+     "gen": "piece",
+     "fond": [
+      -150,
+      220,
+      1230,
+      860
+     ],
+     "mur": {
+      "couleur": "#d9cdb4",
+      "matiere": "enduit"
+     },
+     "sol": {
+      "couleur": "#b0a48e",
+      "matiere": "carrelage"
+     },
+     "plafond": "#cdbfae",
+     "profondeur": 0.95
+    }
+   ],
+   "objets": [
+    {
+     "gen": "objet",
+     "type": "casiers",
+     "x": -120,
+     "y": 890,
+     "l": 1150
+    },
+    {
+     "gen": "objet",
+     "type": "casiers",
+     "x": 820,
+     "y": 890,
+     "l": 800
+    },
+    {
+     "gen": "objet",
+     "type": "horloge",
+     "x": 560,
+     "y": 578,
+     "y_sol": 860,
+     "l": 190,
+     "heure": 8,
+     "minute": 5
+    },
+    {
+     "gen": "foule",
+     "n": 1,
+     "zone": [
+      250,
+      905,
+      262,
+      930
+     ],
+     "epoque": "moderne",
+     "poses": [
+      "debout"
+     ],
+     "seed": 21
+    },
+    {
+     "gen": "foule",
+     "n": 1,
+     "zone": [
+      585,
+      905,
+      597,
+      930
+     ],
+     "epoque": "moderne",
+     "poses": [
+      "telephone"
+     ],
+     "seed": 22
+    }
+   ]
+  },
+  "bus": {
+   "heure": "soir",
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": -1
+   },
+   "couches": [
+    {
+     "gen": "piece",
+     "fond": [
+      -150,
+      220,
+      1230,
+      860
+     ],
+     "mur": {
+      "couleur": "#8d97a2",
+      "matiere": "enduit"
+     },
+     "sol": {
+      "couleur": "#5f656d",
+      "matiere": "lisse"
+     },
+     "plafond": "#cdbfae",
+     "profondeur": 0.95
+    }
+   ],
+   "objets": [
+    {
+     "gen": "objet",
+     "type": "fenetre_bus",
+     "x": -100,
+     "y": 760,
+     "y_sol": 860,
+     "l": 2900,
+     "h": 880,
+     "paysage": "ville",
+     "vitesse": 300
+    },
+    {
+     "gen": "objet",
+     "type": "siege_bus",
+     "x": 190,
+     "y": 985
+    },
+    {
+     "gen": "objet",
+     "type": "siege_bus",
+     "x": 760,
+     "y": 985
+    },
+    {
+     "gen": "objet",
+     "type": "siege_bus",
+     "x": 430,
+     "y": 1084
+    },
+    {
+     "gen": "objet",
+     "type": "barre_bus",
+     "x": 650,
+     "y": 1040,
+     "h": 900
+    }
+   ]
+  },
+  "chambre_nuit": {
+   "heure": "nuit",
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": 1
+   },
+   "couches": [
+    {
+     "gen": "piece",
+     "fond": [
+      -150,
+      220,
+      1230,
+      860
+     ],
+     "mur": {
+      "couleur": "#5d567a",
+      "matiere": "enduit"
+     },
+     "sol": {
+      "couleur": "#4a4050",
+      "matiere": "parquet"
+     },
+     "plafond": "#2c2f48",
+     "profondeur": 0.95,
+     "fenetres": [
+      {
+       "x": 700,
+       "y": 533,
+       "l": 300,
+       "h": 222,
+       "ciel": "nuit",
+       "lune": true
+      }
+     ]
+    }
+   ],
+   "objets": [
+    {
+     "gen": "objet",
+     "type": "cadre",
+     "x": 300,
+     "y": 690,
+     "y_sol": 860,
+     "l": 210,
+     "h": 250
+    },
+    {
+     "gen": "objet",
+     "type": "lampe_pied",
+     "x": 900,
+     "y": 960
+    },
+    {
+     "gen": "meuble",
+     "type": "lit",
+     "x": 140,
+     "y": 1085,
+     "l": 720,
+     "h": 178,
+     "prof": 300,
+     "couleur": "#6a5244",
+     "couleur2": "#8a5a72",
+     "drap": "#e2dcd6"
+    },
+    {
+     "gen": "objet",
+     "type": "tapis",
+     "x": 250,
+     "y": 1150,
+     "l": 600,
+     "prof": 180,
+     "couleur": "#6a4a5e"
+    },
+    {
+     "gen": "meuble",
+     "type": "etagere",
+     "x": -60,
+     "y": 905,
+     "l": 230,
+     "h": 500,
+     "prof": 90,
+     "couleur": "#6a5244"
+    }
+   ]
+  },
+  "colline": {
+   "heure": "matin",
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": 1
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "profondeur": 0
+    },
+    {
+     "gen": "relief",
+     "y": 700,
+     "amplitude": 130,
+     "couleur": "#9aa886",
+     "profondeur": 0.15,
+     "seed": 6
+    },
+    {
+     "gen": "sol",
+     "y": 700,
+     "matiere": "herbe",
+     "couleur": "#a8a86e",
+     "profondeur": 1
+    },
+    {
+     "gen": "arbre",
+     "espece": "olivier",
+     "x": 90,
+     "y": 900,
+     "hauteur": 430,
+     "seed": 3,
+     "profondeur": 1
+    }
+   ],
+   "objets": [
+    {
+     "gen": "foule",
+     "n": 14,
+     "zone": [
+      430,
+      850,
+      1120,
+      950
+     ],
+     "epoque": "antique",
+     "vers": [
+      250,
+      1040
+     ],
+     "poses": [
+      "debout",
+      "ecoute"
+     ],
+     "seed": 5
+    }
+   ]
+  },
+  "colline_or": {
+   "heure": "or",
+   "sol": {
+    "horizon": 700,
+    "y_ref": 1060
+   },
+   "lumiere": {
+    "cote": 1
+   },
+   "couches": [
+    {
+     "gen": "ciel",
+     "profondeur": 0
+    },
+    {
+     "gen": "relief",
+     "y": 700,
+     "amplitude": 130,
+     "couleur": "#9aa886",
+     "profondeur": 0.15,
+     "seed": 6
+    },
+    {
+     "gen": "sol",
+     "y": 700,
+     "matiere": "herbe",
+     "couleur": "#a8a86e",
+     "profondeur": 1
+    },
+    {
+     "gen": "arbre",
+     "espece": "olivier",
+     "x": 90,
+     "y": 900,
+     "hauteur": 430,
+     "seed": 3,
+     "profondeur": 1
+    }
+   ],
+   "objets": [
+    {
+     "gen": "foule",
+     "n": 9,
+     "zone": [
+      800,
+      850,
+      1150,
+      930
+     ],
+     "epoque": "antique",
+     "vers": [
+      250,
+      1040
+     ],
+     "poses": [
+      "debout",
+      "ecoute"
+     ],
+     "seed": 5
+    }
+   ],
+   "panneau": {
+    "fond": "#f6cf7d",
+    "fond2": "#e39a42",
+    "texte": "#2b1c0e",
+    "gris": "#a8742f",
+    "actif": "#fffaf0",
+    "lueur": "#fff3c4"
+   }
+  }
+ },
+ "plans": [
+  {
+   "texte": "Sept heures du matin.",
+   "registre": "aujourdhui",
+   "lieu": "chambre",
+   "acteurs": [
+    {
+     "id": "camille",
+     "x": 480,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "telephone",
+       "visage": "fatigue",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "camille",
+     "plan": "americain"
+    },
+    {
+     "t": "fin",
+     "cadre": "camille",
+     "plan": "serre"
+    }
+   ]
+  },
+  {
+   "texte": "Tu n'es pas levée, et tu as déjà vu trente vies.",
+   "registre": "aujourdhui",
+   "lieu": "chambre",
+   "acteurs": [
+    {
+     "id": "camille",
+     "x": 480,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "telephone",
+       "visage": "inquiet",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "camille",
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": "camille",
+     "plan": "americain"
+    }
+   ]
+  },
+  {
+   "texte": "Des vacances, des couples, des corps parfaits.",
+   "registre": "aujourdhui",
+   "lieu": "chambre",
+   "graphiques": [
+    {
+     "type": "liste",
+     "y": 235,
+     "items": [
+      {
+       "texte": "Des vacances",
+       "icone": "palmtree",
+       "mot": "vacances"
+      },
+      {
+       "texte": "Des couples",
+       "icone": "heart",
+       "mot": "couples"
+      },
+      {
+       "texte": "Des corps parfaits",
+       "icone": "sparkles",
+       "mot": "corps"
+      }
+     ]
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "camille",
+     "x": 480,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "telephone",
+       "visage": "triste",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "camille",
+     "plan": "ensemble"
+    },
+    {
+     "t": "fin",
+     "cadre": "camille",
+     "plan": "ensemble"
+    }
+   ]
+  },
+  {
+   "texte": "Dans le miroir, tu ne vois plus que ce qui manque.",
+   "registre": "aujourdhui",
+   "lieu": "salle_de_bain",
+   "acteurs": [
+    {
+     "id": "camille",
+     "x": 430,
+     "y": 1050,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "triste",
+       "vue": 40
+      },
+      {
+       "mot": "manque",
+       "pose": "tete_baissee",
+       "visage": "honte"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "camille",
+     "plan": "large",
+     "dx": 130
+    },
+    {
+     "mot": "manque",
+     "cadre": "camille",
+     "plan": "americain",
+     "coupe": true,
+     "dx": 10
+    },
+    {
+     "t": "fin",
+     "cadre": "camille",
+     "plan": "serre"
+    }
+   ]
+  },
+  {
+   "texte": "Au lycée, tu souris.",
+   "registre": "aujourdhui",
+   "lieu": "couloir",
+   "acteurs": [
+    {
+     "id": "camille",
+     "x": 420,
+     "y": 1060,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "doux",
+       "tient": null
+      },
+      {
+       "mot": "souris",
+       "pose": "salue",
+       "visage": "rire"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "camille",
+     "plan": "large"
+    },
+    {
+     "t": "fin",
+     "cadre": "camille",
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "Personne ne voit rien.",
+   "registre": "aujourdhui",
+   "lieu": "couloir",
+   "acteurs": [
+    {
+     "id": "camille",
+     "x": 420,
+     "y": 1060,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "doux",
+       "tient": null
+      },
+      {
+       "mot": "voit",
+       "pose": "tete_baissee",
+       "visage": "triste"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "camille",
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": "camille",
+     "plan": "americain"
+    }
+   ]
+  },
+  {
+   "texte": "Dans le bus, tu effaces ta photo. Pas assez de “j'aime”.",
+   "registre": "aujourdhui",
+   "lieu": "bus",
+   "acteurs": [
+    {
+     "id": "camille",
+     "x": 500,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "telephone",
+       "visage": "triste",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "camille",
+     "plan": "large"
+    },
+    {
+     "t": "fin",
+     "cadre": "camille",
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "Et le soir, une petite voix te dit : “tu ne vaux pas grand-chose.”",
+   "registre": "aujourdhui",
+   "lieu": "chambre_nuit",
+   "graphiques": [
+    {
+     "type": "pensee",
+     "sur": "camille",
+     "icone": "heart-crack",
+     "mot": "vaux"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "camille",
+     "x": 480,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "tete_baissee",
+       "visage": "triste",
+       "tient": null,
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80,
+        "cou": 24
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "camille",
+     "plan": "large"
+    },
+    {
+     "t": "fin",
+     "cadre": "camille",
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "Un jour, devant une foule, Jésus parle à ses amis.",
+   "registre": "recit",
+   "appui": [
+    "Luc 12:1",
+    "Luc 12:4"
+   ],
+   "lieu": "colline",
+   "transition": "fondu",
+   "graphiques": [
+    {
+     "type": "badge",
+     "texte": "Une histoire vraie · Luc 12",
+     "t": 0.1,
+     "fin": 2.6
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 290,
+     "y": 1045,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "enseigne",
+       "visage": "doux"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "jesus",
+     "plan": "large",
+     "dx": 190
+    },
+    {
+     "t": "fin",
+     "cadre": "jesus",
+     "plan": "large",
+     "dx": 160,
+     "zoom_k": 1.08
+    }
+   ]
+  },
+  {
+   "texte": "Il leur parle des passereaux. Cinq, pour deux sous.",
+   "registre": "recit",
+   "appui": [
+    "Luc 12:6"
+   ],
+   "lieu": "colline",
+   "objets": [
+    {
+     "gen": "animal",
+     "espece": "oiseau",
+     "x": 405,
+     "y": 520,
+     "taille": 44,
+     "sens": 1,
+     "couleur": "#8a6a4a",
+     "y_sol": 1000
+    },
+    {
+     "gen": "animal",
+     "espece": "oiseau",
+     "x": 462,
+     "y": 578,
+     "taille": 44,
+     "sens": 1,
+     "couleur": "#8a6a4a",
+     "y_sol": 1000
+    },
+    {
+     "gen": "animal",
+     "espece": "oiseau",
+     "x": 522,
+     "y": 515,
+     "taille": 44,
+     "sens": -1,
+     "couleur": "#8a6a4a",
+     "y_sol": 1000
+    },
+    {
+     "gen": "animal",
+     "espece": "oiseau",
+     "x": 582,
+     "y": 570,
+     "taille": 44,
+     "sens": 1,
+     "couleur": "#8a6a4a",
+     "y_sol": 1000
+    },
+    {
+     "gen": "animal",
+     "espece": "oiseau",
+     "x": 634,
+     "y": 528,
+     "taille": 44,
+     "sens": -1,
+     "couleur": "#8a6a4a",
+     "y_sol": 1000
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 290,
+     "y": 1045,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "enseigne",
+       "visage": "doux"
+      },
+      {
+       "mot": "passereaux",
+       "pose": "montre_haut",
+       "visage": "doux",
+       "regarde": "ciel"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "jesus",
+     "plan": "large",
+     "dx": 190
+    },
+    {
+     "t": "fin",
+     "cadre": "jesus",
+     "plan": "large",
+     "dx": 190,
+     "zoom_k": 1.06
+    }
+   ]
+  },
+  {
+   "texte": "Le prix d'un oiseau, c'était presque rien.",
+   "registre": "explication",
+   "appui": [
+    "Luc 12:6"
+   ],
+   "lieu": "colline",
+   "objets": [
+    {
+     "gen": "animal",
+     "espece": "oiseau",
+     "x": 569,
+     "y": 551,
+     "taille": 46,
+     "sens": 1,
+     "couleur": "#8a6a4a",
+     "y_sol": 1000
+    }
+   ],
+   "graphiques": [
+    {
+     "type": "texte",
+     "texte": "Presque *rien*.",
+     "y": 250
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 290,
+     "y": 1045,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "montre_haut",
+       "visage": "doux",
+       "regarde": "ciel"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "jesus",
+     "plan": "ensemble"
+    },
+    {
+     "t": "fin",
+     "cadre": "jesus",
+     "plan": "ensemble"
+    }
+   ]
+  },
+  {
+   "texte": "Et Jésus dit : « Cependant, aucun d'eux n'est oublié devant Dieu. »",
+   "registre": "recit",
+   "appui": [
+    "Luc 12:6"
+   ],
+   "lieu": "colline",
+   "cite": [
+    {
+     "ref": "Luc 12:6",
+     "qui": "jesus"
+    }
+   ],
+   "graphiques": [
+    {
+     "type": "citation",
+     "entete": "JÉSUS DIT",
+     "ref": "Luc 12:6",
+     "texte": "Cependant, aucun d'eux n'est oublié devant Dieu.",
+     "mot": "Cependant"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 290,
+     "y": 1045,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "enseigne",
+       "visage": "tendre"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "jesus",
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": "jesus",
+     "plan": "moyen"
+    }
+   ]
+  },
+  {
+   "texte": "« Ne craignez donc point: vous valez plus que beaucoup de passereaux. »",
+   "registre": "recit",
+   "appui": [
+    "Luc 12:7"
+   ],
+   "lieu": "colline_or",
+   "transition": "fondu",
+   "cite": [
+    {
+     "ref": "Luc 12:7",
+     "qui": "jesus"
+    }
+   ],
+   "graphiques": [
+    {
+     "type": "citation",
+     "entete": "JÉSUS DIT",
+     "ref": "Luc 12:7",
+     "texte": "Ne craignez donc point: vous valez plus que beaucoup de passereaux.",
+     "mot": "craignez"
+    }
+   ],
+   "acteurs": [
+    {
+     "id": "jesus",
+     "x": 290,
+     "y": 1045,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "debout",
+       "visage": "tendre",
+       "regarde": "camera"
+      },
+      {
+       "mot": "valez",
+       "pose": "bras_ouverts",
+       "visage": "doux",
+       "regarde": "camera"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "jesus",
+     "plan": "moyen"
+    },
+    {
+     "mot": "valez",
+     "cadre": "jesus",
+     "plan": "large",
+     "zoom_k": 1.15
+    },
+    {
+     "t": "fin",
+     "cadre": "jesus",
+     "plan": "large",
+     "zoom_k": 1.2
+    }
+   ]
+  },
+  {
+   "texte": "Ta valeur ne se compte pas en “j'aime”.",
+   "registre": "aujourdhui",
+   "lieu": "chambre_nuit",
+   "transition": "fondu",
+   "acteurs": [
+    {
+     "id": "camille",
+     "x": 480,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "tete_baissee",
+       "visage": "triste",
+       "tient": null,
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80,
+        "cou": 22
+       }
+      },
+      {
+       "mot": "compte",
+       "pose": "leve_tete",
+       "visage": "surprise",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "camille",
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": "camille",
+     "plan": "americain"
+    }
+   ]
+  },
+  {
+   "texte": "Quelqu'un te connaît déjà, jusqu'aux cheveux de ta tête.",
+   "registre": "aujourdhui",
+   "lieu": "chambre_nuit",
+   "acteurs": [
+    {
+     "id": "camille",
+     "x": 480,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "leve_tete",
+       "visage": "doux",
+       "tient": null,
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      },
+      {
+       "mot": "cheveux",
+       "visage": "soulage"
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "camille",
+     "plan": "americain"
+    },
+    {
+     "t": "fin",
+     "cadre": "camille",
+     "plan": "americain"
+    }
+   ]
+  },
+  {
+   "texte": "Ce soir, pose ton téléphone. Deux minutes.",
+   "registre": "invitation",
+   "lieu": "chambre_nuit",
+   "acteurs": [
+    {
+     "id": "camille",
+     "x": 480,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "telephone",
+       "visage": "doux",
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      },
+      {
+       "mot": "pose",
+       "pose": "leve_tete",
+       "visage": "paix",
+       "tient": null,
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "camille",
+     "plan": "serre"
+    },
+    {
+     "t": "fin",
+     "cadre": "camille",
+     "plan": "serre"
+    }
+   ]
+  },
+  {
+   "texte": "Dis-lui : “Jésus, apprends-moi à me voir comme tu me vois.”",
+   "registre": "invitation",
+   "lieu": "chambre_nuit",
+   "acteurs": [
+    {
+     "id": "camille",
+     "x": 480,
+     "y": 1085,
+     "sens": 1,
+     "actions": [
+      {
+       "t": 0,
+       "pose": "prie",
+       "visage": "paix",
+       "tient": null,
+       "angles": {
+        "assise": 1,
+        "hanche_av": 86,
+        "genou_av": 86,
+        "hanche_ar": 82,
+        "genou_ar": 80
+       }
+      }
+     ]
+    }
+   ],
+   "camera": [
+    {
+     "t": 0,
+     "cadre": "camille",
+     "plan": "moyen"
+    },
+    {
+     "t": "fin",
+     "cadre": "camille",
+     "plan": "serre"
+    }
+   ]
+  },
+  {
+   "duree": 3.6,
+   "fin": true,
+   "lieu": "chambre_nuit",
+   "graphiques": [
+    {
+     "type": "fin",
+     "ligne": "Luc 12:6-7",
+     "texte": "Tu vaux bien plus.",
+     "sous": "Lis toute l'histoire",
+     "t": 0
+    }
+   ]
+  }
+ ],
+ "livrables": {
+  "numero": 7,
+  "description": "Trente vies avant le petit déjeuner, et la tienne ne suffit plus. Jésus parle d'un oiseau à deux sous… et de toi. Luc 12.",
+  "hashtag": "#comparaison",
+  "situation": "se comparer sur les réseaux, ne pas se trouver assez bien",
+  "invitation": "prière"
+ }
+}
